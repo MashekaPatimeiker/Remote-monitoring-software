@@ -1,0 +1,2266 @@
+
+=== 2025-12-10 01:45:08 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:45:12 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:45:13 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:45:14 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:45:14 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:46:43 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:46:46 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:46:47 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:46:59 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:03 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:06 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:22 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:23 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:24 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:28 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:33 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:53 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:47:53 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:48:13 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:48:13 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:48:18 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:48:23 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 01:48:25 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:02:12 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:03:25 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:03:43 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:03:48 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:03:53 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:03:58 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:03 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:08 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:13 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:18 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:23 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:28 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:33 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:38 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:43 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:48 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:53 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:04:58 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:05:03 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:05:08 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:05:13 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:05:18 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:05:23 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:05:26 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:05:28 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:42:45 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:43:07 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:43:08 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:43:13 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:43:18 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:43:23 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 02:57:34 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+
+=== 2025-12-10 03:41:28 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 03:41:27
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 165
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 10358776 KB (10115.99 MB)
+System Processes: 2
+User Processes: 163
+Average Memory per Process: 62780 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. clion64.exe                         6544       2013616       137
+  2. firefox.exe                        12156       1144096        41
+  3. Rider.Backend.exe                   9800       1022108        70
+  4. firefox.exe                        14068        396848        31
+  5. firefox.exe                         1460        356148        85
+  6. clangd.exe                         11228        354428        14
+  7. firefox.exe                        10228        307968        47
+  8. full-line-inference.exe            10616        282388        26
+  9. steamwebhelper.exe                  9020        224128        20
+ 10. Telegram.exe                       11168        207908       104
+ 11. Discord.exe                        10028        179656        56
+ 12. explorer.exe                        6088        145524       101
+ 13. steamwebhelper.exe                  6696        144776        32
+ 14. firefox.exe                        11352        133016        16
+ 15. firefox.exe                         3132        127036        30
+ 16. VirtualBoxVM.exe                    2436        124984        36
+ 17. Discord.exe                         1048        106928        40
+ 18. SysInfoCap.exe                      2980        103704        16
+ 19. Discord.exe                         9064        102764        69
+ 20. firefox.exe                        11976        101884        28
+ 21. SearchApp.exe                       6964        100664        41
+ 22. firefox.exe                        11328         96860        28
+ 23. AMDRSServ.exe                      11032         82928        10
+ 24. Discord.exe                         6636         82692         7
+ 25. steamwebhelper.exe                  8084         79936        32
+ 26. Registry                             172         74652         4
+ 27. StartMenuExperienceHost.exe         6396         67088        10
+ 28. VirtualBox.exe                     11960         66784        18
+ 29. steam.exe                           6296         65196        38
+ 30. TouchpointAnalyticsClientService.exe      2972         64080        10
+ 31. AMDRSSrcExt.exe                    13924         59516        11
+ 32. ShellExperienceHost.exe             9504         54172        23
+ 33. svchost.exe                         1028         52512        40
+ 34. powershell.exe                     13188         52452         9
+ 35. Discord.exe                         5388         52220        16
+ 36. firefox.exe                         2020         51256        27
+ 37. WINWORD.EXE                        10224         44280        13
+ 38. TextInputHost.exe                  11520         43696        15
+ 39. firefox.exe                        11760         43492        27
+ 40. RadeonSoftware.exe                  9584         38600        51
+ 41. firefox.exe                        12544         37900        28
+ 42. steamwebhelper.exe                 11052         37124        20
+ 43. NVDisplay.Container.exe             2596         36736        26
+ 44. ApplicationFrameHost.exe            3032         36228         3
+ 45. BOAudioControl.exe                  8488         33720        16
+ 46. svchost.exe                         5692         33624        11
+ 47. svchost.exe                         1576         33296        23
+ 48. RuntimeBroker.exe                   7060         33196        13
+ 49. Discord.exe                         9052         31588         7
+ 50. NVDisplay.Container.exe             1884         30780        33
+ 51. svchost.exe                         1320         30140        13
+ 52. audiodg.exe                         7920         28864        15
+ 53. sihost.exe                          5664         28736        10
+ 54. RuntimeBroker.exe                   6648         28540         1
+ 55. RuntimeBroker.exe                  10812         28328         5
+ 56. uTorrent.exe                        7600         26540        41
+ 57. steamwebhelper.exe                  8336         26176        16
+ 58. svchost.exe                         1440         24864         7
+ 59. svchost.exe                         1676         24456        28
+ 60. firefox.exe                         5892         23156        26
+ 61. firefox.exe                        10404         23156        26
+ 62. firefox.exe                        14196         23112        26
+ 63. NetworkCap.exe                      2988         23008         3
+ 64. svchost.exe                         1560         22460        12
+ 65. ctfmon.exe                          5904         21892        12
+ 66. svchost.exe                         2684         20400        24
+ 67. svchost.exe                         4220         20268        12
+ 68. svchost.exe                         2068         19540        19
+ 69. firefox.exe                        11636         18612         5
+ 70. VBoxSVC.exe                         9864         17972        18
+ 71. svchost.exe                         4124         16920        15
+ 72. RtkAudUService64.exe                6308         16424        10
+ 73. svchost.exe                         1644         16304         2
+ 74. steamwebhelper.exe                  8528         15604         9
+ 75. lsass.exe                           1184         15456         8
+ 76. firefox.exe                        12100         15184         8
+ 77. RuntimeBroker.exe                   7812         15004         2
+ 78. msedgewebview2.exe                  1880         14896        51
+ 79. AppHelperCap.exe                    2956         14804         3
+ 80. helper.exe                         10488         14784        31
+ 81. atieclxx.exe                        2940         14532        11
+ 82. svchost.exe                         6084         14396         2
+ 83. firefox.exe                        12804         14280         5
+ 84. dllhost.exe                         7336         14252         6
+ 85. svchost.exe                         3932         13940         9
+ 86. utorrentie.exe                      1248         13632         5
+ 87. DiagsCap.exe                        2964         13384         3
+ 88. utorrentie.exe                      2520         13228         5
+ 89. svchost.exe                         1452         13044        11
+ 90. dllhost.exe                        13152         12680         7
+ 91. AUEPDU.exe                         13996         12468         2
+ 92. firefox.exe                        10500         12396         5
+ 93. svchost.exe                        12448         12360         3
+ 94. client_gui.exe                      6180         11852         3
+ 95. server_gui.exe                     13344         11716         4
+ 96. svchost.exe                         4752         11424        11
+ 97. RtkAudUService64.exe                4400         11076        10
+ 98. sppsvc.exe                         13868         10696         4
+ 99. svchost.exe                        13928         10616         1
+100. RuntimeBroker.exe                  13060          9936         1
+
+... and 65 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. clion64.exe               - 2013616 KB
+ 2. firefox.exe               - 1144096 KB
+ 3. Rider.Backend.exe         - 1022108 KB
+ 4. firefox.exe               -  396848 KB
+ 5. firefox.exe               -  356148 KB
+ 6. clangd.exe                -  354428 KB
+ 7. firefox.exe               -  307968 KB
+ 8. full-line-inference.exe   -  282388 KB
+ 9. steamwebhelper.exe        -  224128 KB
+10. Telegram.exe              -  207908 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 03:41:27
+Server Hostname: XtremeLite-PC
+Total Threads in System: 2839
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 03:41:50 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 03:41:50
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 165
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 9937292 KB (9704.39 MB)
+System Processes: 2
+User Processes: 163
+Average Memory per Process: 60226 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. clion64.exe                         6544       2017644       139
+  2. Rider.Backend.exe                   9800       1021896        70
+  3. firefox.exe                        12156        922824        41
+  4. firefox.exe                        14068        411360        31
+  5. firefox.exe                         1460        357224        85
+  6. clangd.exe                         11228        355096        14
+  7. firefox.exe                        10228        262080        47
+  8. full-line-inference.exe            10616        231272        26
+  9. steamwebhelper.exe                  9020        223988        20
+ 10. Telegram.exe                       11168        207172       104
+ 11. Discord.exe                        10028        179372        56
+ 12. explorer.exe                        6088        144744       101
+ 13. steamwebhelper.exe                  6696        144508        32
+ 14. firefox.exe                         3132        127252        29
+ 15. VirtualBoxVM.exe                    2436        116332        44
+ 16. Discord.exe                         1048        106608        40
+ 17. SysInfoCap.exe                      2980        103424        16
+ 18. Discord.exe                         9064        102436        69
+ 19. firefox.exe                        11976        101640        28
+ 20. SearchApp.exe                       6964        100324        41
+ 21. firefox.exe                        11328         96516        29
+ 22. AMDRSServ.exe                      11032         82796        10
+ 23. Discord.exe                         6636         82476         7
+ 24. steamwebhelper.exe                  8084         79684        32
+ 25. Registry                             172         74532         4
+ 26. StartMenuExperienceHost.exe         6396         66744         9
+ 27. VirtualBox.exe                     11960         66728        18
+ 28. steam.exe                           6296         65044        38
+ 29. TouchpointAnalyticsClientService.exe      2972         63864        11
+ 30. AMDRSSrcExt.exe                    13924         59260        11
+ 31. ShellExperienceHost.exe             9504         53856        23
+ 32. svchost.exe                         1028         52216        40
+ 33. powershell.exe                     13188         52156         9
+ 34. Discord.exe                         5388         51996        16
+ 35. firefox.exe                         2020         51056        28
+ 36. firefox.exe                        11352         46556        10
+ 37. WINWORD.EXE                        10224         44080        13
+ 38. TextInputHost.exe                  11520         43380        15
+ 39. firefox.exe                        11760         43204        27
+ 40. RadeonSoftware.exe                  9584         38476        51
+ 41. firefox.exe                        12544         37644        28
+ 42. steamwebhelper.exe                 11052         36936        20
+ 43. NVDisplay.Container.exe             2596         36396        26
+ 44. ApplicationFrameHost.exe            3032         35912         3
+ 45. BOAudioControl.exe                  8488         33500        16
+ 46. svchost.exe                         5692         33320         9
+ 47. svchost.exe                         1576         33008        22
+ 48. RuntimeBroker.exe                   7060         32932        14
+ 49. Discord.exe                         9052         31392         7
+ 50. NVDisplay.Container.exe             1884         30468        33
+ 51. svchost.exe                         1320         29848        12
+ 52. sihost.exe                          5664         28504        10
+ 53. audiodg.exe                         7920         28368        15
+ 54. RuntimeBroker.exe                   6648         28300         1
+ 55. RuntimeBroker.exe                  10812         28072         5
+ 56. uTorrent.exe                        7600         26376        41
+ 57. steamwebhelper.exe                  8336         26016        16
+ 58. svchost.exe                         1440         24616         7
+ 59. svchost.exe                         1676         24196        29
+ 60. firefox.exe                         5892         22960        26
+ 61. firefox.exe                        10404         22956        26
+ 62. firefox.exe                        14196         22916        26
+ 63. NetworkCap.exe                      2988         22732         3
+ 64. svchost.exe                         1560         22252        13
+ 65. ctfmon.exe                          5904         21748        14
+ 66. svchost.exe                         2684         20180        24
+ 67. svchost.exe                         4220         20048        12
+ 68. svchost.exe                         2068         19320        19
+ 69. firefox.exe                        11636         18368         5
+ 70. VBoxSVC.exe                         9864         17712        19
+ 71. svchost.exe                         4124         16680        15
+ 72. RtkAudUService64.exe                6308         16200        10
+ 73. svchost.exe                         1644         16092         2
+ 74. steamwebhelper.exe                  8528         15456         9
+ 75. lsass.exe                           1184         15228         8
+ 76. firefox.exe                        12100         14916         8
+ 77. msedgewebview2.exe                  1880         14788        51
+ 78. RuntimeBroker.exe                   7812         14780         2
+ 79. helper.exe                         10488         14616        31
+ 80. AppHelperCap.exe                    2956         14540         3
+ 81. atieclxx.exe                        2940         14288        11
+ 82. svchost.exe                         6084         14188         2
+ 83. firefox.exe                        12804         14076         5
+ 84. dllhost.exe                         7336         14060         6
+ 85. svchost.exe                         3932         13740         9
+ 86. utorrentie.exe                      1248         13476         5
+ 87. DiagsCap.exe                        2964         13128         3
+ 88. utorrentie.exe                      2520         13072         5
+ 89. svchost.exe                         1452         12800        11
+ 90. dllhost.exe                        13152         12432         7
+ 91. AUEPDU.exe                         13996         12256         2
+ 92. firefox.exe                        10500         12228         5
+ 93. svchost.exe                        12448         12140         3
+ 94. client_gui.exe                      6180         12028         3
+ 95. server_gui.exe                     13344         11548         2
+ 96. svchost.exe                         4752         11208        11
+ 97. RtkAudUService64.exe                4400         10884        10
+ 98. sppsvc.exe                         13868         10492         4
+ 99. svchost.exe                        13928         10388         1
+100. RuntimeBroker.exe                  13060          9708         1
+
+... and 65 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. clion64.exe               - 2017644 KB
+ 2. Rider.Backend.exe         - 1021896 KB
+ 3. firefox.exe               -  922824 KB
+ 4. firefox.exe               -  411360 KB
+ 5. firefox.exe               -  357224 KB
+ 6. clangd.exe                -  355096 KB
+ 7. firefox.exe               -  262080 KB
+ 8. full-line-inference.exe   -  231272 KB
+ 9. steamwebhelper.exe        -  223988 KB
+10. Telegram.exe              -  207172 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 03:41:50
+Server Hostname: XtremeLite-PC
+Total Threads in System: 2844
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 03:41:52 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 03:41:52
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 165
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 9889456 KB (9657.67 MB)
+System Processes: 2
+User Processes: 163
+Average Memory per Process: 59936 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. clion64.exe                         6544       2019284       139
+  2. Rider.Backend.exe                   9800        978752        70
+  3. firefox.exe                        12156        932780        41
+  4. firefox.exe                        14068        402156        31
+  5. clangd.exe                         11228        356224        14
+  6. firefox.exe                         1460        354804        85
+  7. firefox.exe                        10228        262116        47
+  8. full-line-inference.exe            10616        231272        26
+  9. steamwebhelper.exe                  9020        223988        20
+ 10. Telegram.exe                       11168        207172       104
+ 11. Discord.exe                        10028        179312        56
+ 12. steamwebhelper.exe                  6696        144476        32
+ 13. explorer.exe                        6088        143804       100
+ 14. firefox.exe                         3132        126780        29
+ 15. VirtualBoxVM.exe                    2436        116332        44
+ 16. Discord.exe                         1048        106580        40
+ 17. SysInfoCap.exe                      2980        103420        16
+ 18. Discord.exe                         9064        102436        69
+ 19. firefox.exe                        11976        101464        27
+ 20. SearchApp.exe                       6964        100324        41
+ 21. firefox.exe                        11328         95820        29
+ 22. AMDRSServ.exe                      11032         82792        10
+ 23. Discord.exe                         6636         82476         7
+ 24. steamwebhelper.exe                  8084         79676        32
+ 25. Registry                             172         74532         4
+ 26. VirtualBox.exe                     11960         66716        18
+ 27. StartMenuExperienceHost.exe         6396         66472         8
+ 28. steam.exe                           6296         64880        38
+ 29. TouchpointAnalyticsClientService.exe      2972         63784        11
+ 30. AMDRSSrcExt.exe                    13924         59236        11
+ 31. ShellExperienceHost.exe             9504         53856        23
+ 32. svchost.exe                         1028         52184        40
+ 33. powershell.exe                     13188         52156         9
+ 34. Discord.exe                         5388         51992        16
+ 35. firefox.exe                         2020         50980        28
+ 36. firefox.exe                        11352         46556        10
+ 37. WINWORD.EXE                        10224         44100        13
+ 38. TextInputHost.exe                  11520         43380        15
+ 39. firefox.exe                        11760         43204        27
+ 40. RadeonSoftware.exe                  9584         38260        51
+ 41. firefox.exe                        12544         37696        28
+ 42. steamwebhelper.exe                 11052         36936        20
+ 43. NVDisplay.Container.exe             2596         36296        26
+ 44. ApplicationFrameHost.exe            3032         35612         3
+ 45. BOAudioControl.exe                  8488         33500        16
+ 46. svchost.exe                         5692         33328        10
+ 47. svchost.exe                         1576         33004        22
+ 48. RuntimeBroker.exe                   7060         32932        14
+ 49. Discord.exe                         9052         31392         7
+ 50. NVDisplay.Container.exe             1884         30400        33
+ 51. svchost.exe                         1320         29856        12
+ 52. sihost.exe                          5664         28496        10
+ 53. RuntimeBroker.exe                   6648         28304         1
+ 54. RuntimeBroker.exe                  10812         28056         5
+ 55. audiodg.exe                         7920         27208        15
+ 56. uTorrent.exe                        7600         26320        41
+ 57. steamwebhelper.exe                  8336         26012        16
+ 58. svchost.exe                         1440         24616         7
+ 59. svchost.exe                         1676         24216        28
+ 60. firefox.exe                         5892         22960        26
+ 61. firefox.exe                        10404         22956        26
+ 62. firefox.exe                        14196         22916        26
+ 63. NetworkCap.exe                      2988         22728         3
+ 64. svchost.exe                         1560         22264        13
+ 65. ctfmon.exe                          5904         21740        14
+ 66. svchost.exe                         2684         20168        24
+ 67. svchost.exe                         4220         20036        12
+ 68. svchost.exe                         2068         18856        19
+ 69. firefox.exe                        11636         18368         5
+ 70. VBoxSVC.exe                         9864         17712        19
+ 71. svchost.exe                         4124         16676        15
+ 72. RtkAudUService64.exe                6308         16200        10
+ 73. svchost.exe                         1644         16088         2
+ 74. steamwebhelper.exe                  8528         15456         9
+ 75. lsass.exe                           1184         15212         8
+ 76. firefox.exe                        12100         14916         8
+ 77. msedgewebview2.exe                  1880         14796        51
+ 78. RuntimeBroker.exe                   7812         14772         2
+ 79. helper.exe                         10488         14616        31
+ 80. AppHelperCap.exe                    2956         14496         3
+ 81. atieclxx.exe                        2940         14288        11
+ 82. svchost.exe                         6084         14188         2
+ 83. firefox.exe                        12804         14076         5
+ 84. dllhost.exe                         7336         14056         6
+ 85. svchost.exe                         3932         13736         9
+ 86. utorrentie.exe                      1248         13476         5
+ 87. DiagsCap.exe                        2964         13128         3
+ 88. utorrentie.exe                      2520         13072         5
+ 89. svchost.exe                         1452         12796        11
+ 90. dllhost.exe                        13152         12432         7
+ 91. AUEPDU.exe                         13996         12256         2
+ 92. firefox.exe                        10500         12228         5
+ 93. svchost.exe                        12448         12140         3
+ 94. client_gui.exe                      6180         12000         2
+ 95. server_gui.exe                     13344         11284         2
+ 96. svchost.exe                         4752         11208        11
+ 97. RtkAudUService64.exe                4400         10884        10
+ 98. sppsvc.exe                         13868         10492         4
+ 99. svchost.exe                        13928         10388         1
+100. RuntimeBroker.exe                  13060          9708         1
+
+... and 65 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. clion64.exe               - 2019284 KB
+ 2. Rider.Backend.exe         -  978752 KB
+ 3. firefox.exe               -  932780 KB
+ 4. firefox.exe               -  402156 KB
+ 5. clangd.exe                -  356224 KB
+ 6. firefox.exe               -  354804 KB
+ 7. firefox.exe               -  262116 KB
+ 8. full-line-inference.exe   -  231272 KB
+ 9. steamwebhelper.exe        -  223988 KB
+10. Telegram.exe              -  207172 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 03:41:52
+Server Hostname: XtremeLite-PC
+Total Threads in System: 2841
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 03:43:15 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 03:43:14
+Server: Win10
+Client IP: 192.168.0.102
+Total Processes: 74
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 1702184 KB (1662.29 MB)
+System Processes: 2
+User Processes: 72
+Average Memory per Process: 23002 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. explorer.exe                        3008        126016        54
+  2. Memory Compression                  1276        120636        54
+  3. MsMpEng.exe                         1996        103316        19
+  4. svchost.exe                          992         79232        45
+  5. msedgewebview2.exe                  5584         69628        48
+  6. SearchApp.exe                       3552         63052        33
+  7. msedge.exe                          5016         60736        46
+  8. StartMenuExperienceHost.exe         3376         51428         8
+  9. SearchApp.exe                       5976         51144        15
+ 10. svchost.exe                           52         44664        15
+ 11. Telegram.exe                        2480         42856        24
+ 12. svchost.exe                         2696         37608         7
+ 13. msedgewebview2.exe                  2484         34268        18
+ 14. msedgewebview2.exe                  5340         33964        14
+ 15. svchost.exe                         1884         30904         9
+ 16. msedge.exe                          4460         29700        16
+ 17. svchost.exe                          696         28480        14
+ 18. OneDrive.exe                        4932         28408        24
+ 19. msedgewebview2.exe                  1216         27852        19
+ 20. RuntimeBroker.exe                   3440         27832         3
+ 21. ApplicationFrameHost.exe            4892         27240         3
+ 22. sihost.exe                          2676         26376        10
+ 23. RuntimeBroker.exe                   3652         26008         5
+ 24. svchost.exe                          864         25716        17
+ 25. svchost.exe                          984         23080        11
+ 26. RuntimeBroker.exe                   3448         21584         3
+ 27. svchost.exe                          976         20596        13
+ 28. SearchIndexer.exe                   2096         18672        15
+ 29. Registry                              72         17608         4
+ 30. msedge.exe                          4472         17592        14
+ 31. ctfmon.exe                          1488         17112         9
+ 32. svchost.exe                         1120         17104        15
+ 33. svchost.exe                         3148         16092         3
+ 34. svchost.exe                         1600         15672         3
+ 35. msedge.exe                          3800         15592         9
+ 36. svchost.exe                         5716         15316         9
+ 37. msedgewebview2.exe                  2400         15260         9
+ 38. svchost.exe                         1728         15120        12
+ 39. svchost.exe                         5428         14536         2
+ 40. lsass.exe                            564         14432         7
+ 41. RuntimeBroker.exe                    888         14280         1
+ 42. server_gui.exe                      5396         13728         2
+ 43. SecurityHealthService.exe           4836         13528         6
+ 44. svchost.exe                          784         12460         8
+ 45. taskhostw.exe                       2792         12284         8
+ 46. svchost.exe                         4600         12156         3
+ 47. spoolsv.exe                         1656         11708         6
+ 48. svchost.exe                         1428         11592         8
+ 49. svchost.exe                         4800         10164         8
+ 50. svchost.exe                         1588         10140        12
+ 51. svchost.exe                         1304         10052         2
+ 52. SecurityHealthSystray.exe           4776          8804         1
+ 53. winlogon.exe                         532          8520         4
+ 54. svchost.exe                         1532          8224         4
+ 55. NisSrv.exe                          2808          7892         5
+ 56. svchost.exe                         6116          7812         1
+ 57. svchost.exe                         2504          7612         5
+ 58. RuntimeBroker.exe                   5572          7484         1
+ 59. SgrmBroker.exe                      5316          7328         6
+ 60. services.exe                         556          7080         5
+ 61. msedge.exe                          5048          6996         7
+ 62. msedgewebview2.exe                  5420          6236         8
+ 63. svchost.exe                         1524          6068         5
+ 64. wininit.exe                          464          4072         1
+ 65. Microsoft.Photos.exe                5832          1436        16
+ 66. WinStore.App.exe                    4912          1276        13
+ 67. smss.exe                             304           676         2
+ 68. System                                 4           144        99
+ 69. dwm.exe                              876           N/A        17
+ 70. csrss.exe                            472           N/A        11
+ 71. fontdrvhost.exe                      668           N/A         5
+ 72. fontdrvhost.exe                      676           N/A         5
+ 73. csrss.exe                            396           N/A         9
+ 74. [System Process]                       0           N/A         1
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. explorer.exe              -  126016 KB
+ 2. Memory Compression        -  120636 KB
+ 3. MsMpEng.exe               -  103316 KB
+ 4. svchost.exe               -   79232 KB
+ 5. msedgewebview2.exe        -   69628 KB
+ 6. SearchApp.exe             -   63052 KB
+ 7. msedge.exe                -   60736 KB
+ 8. StartMenuExperienceHost.exe -   51428 KB
+ 9. SearchApp.exe             -   51144 KB
+10. svchost.exe               -   44664 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 03:43:14
+Server Hostname: Win10
+Total Threads in System: 953
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 03:48:56 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 03:48:56
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 165
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 10073436 KB (9837.34 MB)
+System Processes: 2
+User Processes: 163
+Average Memory per Process: 61051 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. clion64.exe                         6544       2030184       147
+  2. Rider.Backend.exe                   9800       1060356        69
+  3. firefox.exe                        12156        984748        40
+  4. firefox.exe                        14068        418556        31
+  5. clangd.exe                         11228        387636        14
+  6. firefox.exe                         1460        335124        80
+  7. firefox.exe                        10228        257432        46
+  8. steamwebhelper.exe                  9020        236012        20
+  9. full-line-inference.exe            10616        231276        26
+ 10. Telegram.exe                       11168        207236       104
+ 11. Discord.exe                        10028        175616        56
+ 12. explorer.exe                        6088        159820       103
+ 13. steamwebhelper.exe                  6696        145188        33
+ 14. firefox.exe                         3132        117016        29
+ 15. VirtualBoxVM.exe                    2436        116256        36
+ 16. Discord.exe                         1048        106656        40
+ 17. SysInfoCap.exe                      2980        103436        17
+ 18. Discord.exe                         9064        103416        69
+ 19. firefox.exe                        11976        101572        27
+ 20. SearchApp.exe                       6964         99520        42
+ 21. firefox.exe                        11328         98108        29
+ 22. AMDRSServ.exe                      11032         82808        10
+ 23. Discord.exe                         6636         82480         7
+ 24. steamwebhelper.exe                  8084         79904        32
+ 25. Registry                             172         74676         4
+ 26. VirtualBox.exe                     11960         67036        18
+ 27. StartMenuExperienceHost.exe         6396         66584         8
+ 28. steam.exe                           6296         65132        38
+ 29. TouchpointAnalyticsClientService.exe      2972         63924        11
+ 30. AMDRSSrcExt.exe                    13924         59288        11
+ 31. ShellExperienceHost.exe             9504         53832        23
+ 32. Discord.exe                         5388         52028        16
+ 33. svchost.exe                         1028         51992        39
+ 34. powershell.exe                     13188         51812         9
+ 35. firefox.exe                         2020         51032        28
+ 36. firefox.exe                        11352         46732         8
+ 37. WINWORD.EXE                        10224         44112        13
+ 38. TextInputHost.exe                  11520         43472        13
+ 39. firefox.exe                        11760         42968        27
+ 40. RadeonSoftware.exe                  9584         38192        52
+ 41. steamwebhelper.exe                 11052         37800        20
+ 42. firefox.exe                        12544         37264        28
+ 43. NVDisplay.Container.exe             2596         36312        26
+ 44. BOAudioControl.exe                  8488         33500        16
+ 45. svchost.exe                         5692         33380         9
+ 46. svchost.exe                         1576         33148        23
+ 47. RuntimeBroker.exe                   7060         32720        13
+ 48. ApplicationFrameHost.exe            3032         32184         3
+ 49. Discord.exe                         9052         31400         7
+ 50. NVDisplay.Container.exe             1884         30516        33
+ 51. svchost.exe                         1320         29844        11
+ 52. audiodg.exe                         7920         28608        15
+ 53. sihost.exe                          5664         28492        10
+ 54. RuntimeBroker.exe                   6648         27580         2
+ 55. uTorrent.exe                        7600         26392        40
+ 56. steamwebhelper.exe                  8336         26096        18
+ 57. svchost.exe                         1440         24756         7
+ 58. svchost.exe                         1676         24356        30
+ 59. RuntimeBroker.exe                  10812         23632         3
+ 60. firefox.exe                         5892         22948        26
+ 61. firefox.exe                        10404         22940        26
+ 62. firefox.exe                        14196         22900        26
+ 63. NetworkCap.exe                      2988         22772         4
+ 64. svchost.exe                         1560         22256        11
+ 65. ctfmon.exe                          5904         21872        11
+ 66. svchost.exe                         2684         20568        24
+ 67. svchost.exe                         4220         20100        12
+ 68. svchost.exe                         2068         19260        17
+ 69. firefox.exe                        11636         18424         5
+ 70. VBoxSVC.exe                         9864         17692        17
+ 71. svchost.exe                         4124         16756        15
+ 72. RtkAudUService64.exe                6308         16200        10
+ 73. svchost.exe                         1644         16108         2
+ 74. steamwebhelper.exe                  8528         15620         9
+ 75. lsass.exe                           1184         15356         7
+ 76. firefox.exe                        12100         15048         8
+ 77. RuntimeBroker.exe                   7812         14800         1
+ 78. msedgewebview2.exe                  1880         14748        51
+ 79. helper.exe                         10488         14628        31
+ 80. AppHelperCap.exe                    2956         14540         4
+ 81. atieclxx.exe                        2940         14320        12
+ 82. dllhost.exe                         7336         14316         4
+ 83. svchost.exe                         6084         14220         2
+ 84. firefox.exe                        12804         14080         5
+ 85. svchost.exe                         3932         13836        10
+ 86. utorrentie.exe                      1248         13488         5
+ 87. DiagsCap.exe                        2964         13128         3
+ 88. utorrentie.exe                      2520         13084         5
+ 89. svchost.exe                         1452         12952        10
+ 90. dllhost.exe                        13152         12448         6
+ 91. firefox.exe                        10500         12372         5
+ 92. AUEPDU.exe                         13996         12256         2
+ 93. svchost.exe                        12448         12172         3
+ 94. client_gui.exe                     12340         11720         3
+ 95. server_gui.exe                     12716         11720         5
+ 96. svchost.exe                         4752         11236        11
+ 97. RtkAudUService64.exe                4400         10888        10
+ 98. sppsvc.exe                         13868         10476         4
+ 99. svchost.exe                        13928         10464         1
+100. RuntimeBroker.exe                  13060          9712         1
+
+... and 65 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. clion64.exe               - 2030184 KB
+ 2. Rider.Backend.exe         - 1060356 KB
+ 3. firefox.exe               -  984748 KB
+ 4. firefox.exe               -  418556 KB
+ 5. clangd.exe                -  387636 KB
+ 6. firefox.exe               -  335124 KB
+ 7. firefox.exe               -  257432 KB
+ 8. steamwebhelper.exe        -  236012 KB
+ 9. full-line-inference.exe   -  231276 KB
+10. Telegram.exe              -  207236 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 03:48:56
+Server Hostname: XtremeLite-PC
+Total Threads in System: 2798
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 04:03:37 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 04:03:37
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 166
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 9884404 KB (9652.74 MB)
+System Processes: 2
+User Processes: 164
+Average Memory per Process: 59544 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. clion64.exe                         6544       2086052       127
+  2. Rider.Backend.exe                   9800       1057412        70
+  3. firefox.exe                        12156        894896        40
+  4. firefox.exe                         1460        361824        85
+  5. firefox.exe                        14068        345464        31
+  6. firefox.exe                        10228        316104        46
+  7. clangd.exe                         11228        275388        14
+  8. steamwebhelper.exe                  9020        228268        20
+  9. Telegram.exe                       11168        199548       104
+ 10. Discord.exe                        10028        171404        57
+ 11. explorer.exe                        6088        157940       101
+ 12. steamwebhelper.exe                  6696        145192        32
+ 13. firefox.exe                        11352        137884        15
+ 14. firefox.exe                         3132        125164        28
+ 15. VirtualBoxVM.exe                    2436        116256        36
+ 16. Discord.exe                         1048        106440        40
+ 17. Discord.exe                         9064        104944        69
+ 18. firefox.exe                        11976        102656        28
+ 19. SysInfoCap.exe                      2980        101784        16
+ 20. SearchApp.exe                       6964        100460        42
+ 21. firefox.exe                        11328         99712        28
+ 22. AMDRSServ.exe                      11032         83004        10
+ 23. Discord.exe                         6636         82480         7
+ 24. steamwebhelper.exe                  8084         79932        32
+ 25. Registry                             172         74612         4
+ 26. full-line-inference.exe            10616         71580        26
+ 27. VirtualBox.exe                     11960         67076        19
+ 28. StartMenuExperienceHost.exe         6396         66652         9
+ 29. steam.exe                           6296         65596        38
+ 30. TouchpointAnalyticsClientService.exe      2972         65300        10
+ 31. AMDRSSrcExt.exe                    13924         59292        11
+ 32. WINWORD.EXE                        10224         57852        17
+ 33. ShellExperienceHost.exe             9504         54088        23
+ 34. Discord.exe                         5388         52288        16
+ 35. svchost.exe                         1028         51848        40
+ 36. powershell.exe                     13188         51676         9
+ 37. firefox.exe                         2020         50740        28
+ 38. RadeonSoftware.exe                  9584         46620        51
+ 39. TextInputHost.exe                  11520         43564        15
+ 40. firefox.exe                        11760         42668        27
+ 41. steamwebhelper.exe                 11052         37796        20
+ 42. firefox.exe                        12544         37156        28
+ 43. NVDisplay.Container.exe             2596         33976        26
+ 44. BOAudioControl.exe                  8488         33500        16
+ 45. svchost.exe                         5692         33384         9
+ 46. svchost.exe                         1576         32968        22
+ 47. RuntimeBroker.exe                   7060         32720        13
+ 48. ApplicationFrameHost.exe            3032         31444         3
+ 49. Discord.exe                         9052         31408         7
+ 50. NVDisplay.Container.exe             1884         30240        33
+ 51. sihost.exe                          5664         30048        11
+ 52. svchost.exe                         1320         30020        16
+ 53. audiodg.exe                         7920         28640        16
+ 54. RuntimeBroker.exe                   6648         27404         1
+ 55. uTorrent.exe                        7600         27360        40
+ 56. steamwebhelper.exe                  8336         26064        18
+ 57. svchost.exe                         1676         25124        29
+ 58. svchost.exe                         1440         24968         8
+ 59. RuntimeBroker.exe                  10812         23628         3
+ 60. firefox.exe                         5892         22968        26
+ 61. firefox.exe                        10404         22936        26
+ 62. firefox.exe                        14196         22900        26
+ 63. NetworkCap.exe                      2988         22696         3
+ 64. svchost.exe                         1560         22084        11
+ 65. ctfmon.exe                          5904         21880        14
+ 66. svchost.exe                         2684         20600        25
+ 67. svchost.exe                         4220         20068        12
+ 68. svchost.exe                         2068         19256        16
+ 69. RuntimeBroker.exe                   7812         18812         2
+ 70. firefox.exe                        11636         18424         5
+ 71. VBoxSVC.exe                         9864         17692        18
+ 72. svchost.exe                         4124         16640        13
+ 73. RtkAudUService64.exe                6308         16188        10
+ 74. helper.exe                         10488         16116        31
+ 75. svchost.exe                         1644         15860         2
+ 76. steamwebhelper.exe                  8528         15620         9
+ 77. lsass.exe                           1184         15372         7
+ 78. firefox.exe                        12100         15068         8
+ 79. msedgewebview2.exe                  1880         14688        51
+ 80. dllhost.exe                         7336         14320         4
+ 81. svchost.exe                         6084         14220         2
+ 82. atieclxx.exe                        2940         14192        12
+ 83. firefox.exe                        12804         14080         5
+ 84. svchost.exe                         3932         13812        10
+ 85. utorrentie.exe                      1248         13508         5
+ 86. AppHelperCap.exe                    2956         13304         3
+ 87. utorrentie.exe                      2520         13084         5
+ 88. DiagsCap.exe                        2964         13048         3
+ 89. svchost.exe                         1452         12940        10
+ 90. svchost.exe                        12448         12916         7
+ 91. dllhost.exe                        13152         12432         5
+ 92. firefox.exe                        10500         12376         5
+ 93. AUEPDU.exe                         13996         12256         2
+ 94. server_gui.exe                     12968         11584         7
+ 95. client_gui.exe                      1660         11584         4
+ 96. svchost.exe                         4752         11248        12
+ 97. RtkAudUService64.exe                4400         10888        10
+ 98. sppsvc.exe                         13868         10572         4
+ 99. svchost.exe                        13928         10460         1
+100. RuntimeBroker.exe                  13060          9644         1
+
+... and 66 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. clion64.exe               - 2086052 KB
+ 2. Rider.Backend.exe         - 1057412 KB
+ 3. firefox.exe               -  894896 KB
+ 4. firefox.exe               -  361824 KB
+ 5. firefox.exe               -  345464 KB
+ 6. firefox.exe               -  316104 KB
+ 7. clangd.exe                -  275388 KB
+ 8. steamwebhelper.exe        -  228268 KB
+ 9. Telegram.exe              -  199548 KB
+10. Discord.exe               -  171404 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 04:03:37
+Server Hostname: XtremeLite-PC
+Total Threads in System: 2827
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 04:05:32 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 04:05:31
+Server: Win10
+Client IP: 192.168.0.102
+Total Processes: 79
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 2098568 KB (2049.38 MB)
+System Processes: 2
+User Processes: 77
+Average Memory per Process: 26564 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. MsMpEng.exe                         1996        169424        26
+  2. explorer.exe                        3008        143524        79
+  3. Memory Compression                  1276        136220        58
+  4. msedge.exe                          3484        120012        50
+  5. Telegram.exe                        2480        118244        27
+  6. svchost.exe                          992         80156        42
+  7. SearchApp.exe                       3552         69904        34
+  8. msedgewebview2.exe                  5584         69624        48
+  9. StartMenuExperienceHost.exe         3376         65300        20
+ 10. SearchApp.exe                       5976         51144        15
+ 11. svchost.exe                           52         47524        16
+ 12. TextInputHost.exe                   5800         40308        16
+ 13. svchost.exe                         2696         38204         9
+ 14. smartscreen.exe                     5440         35628        10
+ 15. msedgewebview2.exe                  2484         34264        18
+ 16. msedgewebview2.exe                  5340         33960        14
+ 17. msedge.exe                          5684         33676        17
+ 18. svchost.exe                         1884         30824         9
+ 19. OneDrive.exe                        4932         29128        24
+ 20. svchost.exe                          696         28716        16
+ 21. sihost.exe                          2676         27920        15
+ 22. RuntimeBroker.exe                   3440         27904         5
+ 23. msedgewebview2.exe                  1216         27844        19
+ 24. ApplicationFrameHost.exe            4892         27788         3
+ 25. RuntimeBroker.exe                   3652         26248         9
+ 26. svchost.exe                          864         25756        19
+ 27. msedge.exe                          2980         25600        14
+ 28. RuntimeBroker.exe                   3448         24652        11
+ 29. svchost.exe                          976         22724        13
+ 30. svchost.exe                          984         22112        13
+ 31. SearchIndexer.exe                   2096         20504        17
+ 32. msedge.exe                          5964         18904         9
+ 33. Registry                              72         18780         4
+ 34. ctfmon.exe                          1488         17668        11
+ 35. svchost.exe                         1120         17560        19
+ 36. svchost.exe                         3148         16828         8
+ 37. svchost.exe                         1600         15628         7
+ 38. svchost.exe                         5716         15308         9
+ 39. msedgewebview2.exe                  2400         15260         9
+ 40. lsass.exe                            564         15176         9
+ 41. svchost.exe                         1728         15080        12
+ 42. svchost.exe                         5428         14548         3
+ 43. RuntimeBroker.exe                    888         14252         1
+ 44. server_gui (2).exe                  5000         13712         4
+ 45. SecurityHealthService.exe           4836         13388         6
+ 46. dllhost.exe                         5196         13104        13
+ 47. taskhostw.exe                       2792         12780         8
+ 48. svchost.exe                          784         12764        11
+ 49. audiodg.exe                         2388         12100         7
+ 50. svchost.exe                         1428         11832        12
+ 51. spoolsv.exe                         1656         11656         6
+ 52. svchost.exe                         4600         11484         3
+ 53. svchost.exe                         4800         10124         8
+ 54. svchost.exe                         1588         10052        12
+ 55. svchost.exe                         1304         10020         2
+ 56. SecurityHealthSystray.exe           4776          8804         1
+ 57. winlogon.exe                         532          8564         6
+ 58. NisSrv.exe                          2808          8492         6
+ 59. svchost.exe                         1532          8176         4
+ 60. msedge.exe                          4420          7992         8
+ 61. svchost.exe                         6116          7804         1
+ 62. svchost.exe                         4316          7692         3
+ 63. svchost.exe                         2504          7460         5
+ 64. RuntimeBroker.exe                   5572          7440         1
+ 65. services.exe                         556          6856         6
+ 66. SgrmBroker.exe                      5316          6640         6
+ 67. msedgewebview2.exe                  5420          6236         8
+ 68. svchost.exe                         1524          6032         5
+ 69. wininit.exe                          464          4044         1
+ 70. Microsoft.Photos.exe                5832          1436        16
+ 71. WinStore.App.exe                    4912          1164        13
+ 72. smss.exe                             304           748         2
+ 73. System                                 4           144       101
+ 74. [System Process]                       0           N/A         1
+ 75. dwm.exe                              876           N/A        17
+ 76. csrss.exe                            472           N/A        11
+ 77. fontdrvhost.exe                      668           N/A         5
+ 78. fontdrvhost.exe                      676           N/A         5
+ 79. csrss.exe                            396           N/A         9
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. MsMpEng.exe               -  169424 KB
+ 2. explorer.exe              -  143524 KB
+ 3. Memory Compression        -  136220 KB
+ 4. msedge.exe                -  120012 KB
+ 5. Telegram.exe              -  118244 KB
+ 6. svchost.exe               -   80156 KB
+ 7. SearchApp.exe             -   69904 KB
+ 8. msedgewebview2.exe        -   69624 KB
+ 9. StartMenuExperienceHost.exe -   65300 KB
+10. SearchApp.exe             -   51144 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 04:05:31
+Server Hostname: Win10
+Total Threads in System: 1120
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 04:09:03 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 04:09:02
+Server: Win10
+Client IP: 192.168.0.102
+Total Processes: 71
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 1311704 KB (1280.96 MB)
+System Processes: 2
+User Processes: 69
+Average Memory per Process: 18474 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. Telegram.exe                        4800        363024        25
+  2. explorer.exe                        3028        136144        71
+  3. msedge.exe                          3420        119956        58
+  4. SearchApp.exe                       3604         79736        36
+  5. OneDrive.exe                        2416         65384        28
+  6. StartMenuExperienceHost.exe         3336         62196        13
+  7. svchost.exe                         2748         35616        11
+  8. msedge.exe                          4100         33140        21
+  9. RuntimeBroker.exe                   3664         32212        10
+ 10. RuntimeBroker.exe                   5104         31584        12
+ 11. backgroundTaskHost.exe              1916         30052        10
+ 12. sihost.exe                          2720         28980        16
+ 13. ApplicationFrameHost.exe            4536         28448         8
+ 14. RuntimeBroker.exe                   3508         26560         8
+ 15. msedge.exe                          4216         24860        16
+ 16. smartscreen.exe                     4044         22876        10
+ 17. backgroundTaskHost.exe              3544         21128        13
+ 18. backgroundTaskHost.exe              5036         20732        12
+ 19. WinStore.App.exe                    4564         19272        13
+ 20. msedge.exe                          2452         18392         9
+ 21. RuntimeBroker.exe                    896         18328         7
+ 22. svchost.exe                         1384         17432         7
+ 23. ctfmon.exe                          3428         15076        10
+ 24. dllhost.exe                         3244         14068        10
+ 25. server_gui.exe                      4048         12692         6
+ 26. taskhostw.exe                       2800          9592         7
+ 27. SecurityHealthSystray.exe           4296          9104         4
+ 28. RuntimeBroker.exe                   4688          7764         5
+ 29. msedge.exe                          4340          7356         8
+ 30. svchost.exe                         1764           N/A        17
+ 31. svchost.exe                         1900           N/A        12
+ 32. MsMpEng.exe                         1988           N/A        29
+ 33. svchost.exe                         1256           N/A        14
+ 34. svchost.exe                         1368           N/A         7
+ 35. SearchIndexer.exe                   2144           N/A        19
+ 36. svchost.exe                         2508           N/A        10
+ 37. NisSrv.exe                          2568           N/A         6
+ 38. [System Process]                       0           N/A         1
+ 39. System                                 4           N/A       109
+ 40. Registry                              72           N/A         4
+ 41. MicrosoftEdgeUpdate.exe             2852           N/A         6
+ 42. smss.exe                             304           N/A         3
+ 43. csrss.exe                            400           N/A        10
+ 44. SearchProtocolHost.exe               688           N/A         6
+ 45. wininit.exe                          468           N/A         5
+ 46. csrss.exe                            476           N/A        12
+ 47. winlogon.exe                         536           N/A         6
+ 48. services.exe                         560           N/A         8
+ 49. lsass.exe                            568           N/A        10
+ 50. fontdrvhost.exe                      668           N/A         5
+ 51. fontdrvhost.exe                      676           N/A         5
+ 52. SearchFilterHost.exe                4440           N/A         3
+ 53. WmiPrvSE.exe                        4912           N/A         6
+ 54. svchost.exe                          692           N/A        26
+ 55. svchost.exe                          780           N/A        14
+ 56. dwm.exe                              876           N/A        19
+ 57. svchost.exe                          972           N/A        56
+ 58. SecurityHealthService.exe           4220           N/A        14
+ 59. svchost.exe                          980           N/A        20
+ 60. svchost.exe                         1016           N/A        17
+ 61. svchost.exe                          260           N/A        18
+ 62. svchost.exe                          336           N/A        34
+ 63. svchost.exe                         1144           N/A        23
+ 64. svchost.exe                         1244           N/A         5
+ 65. svchost.exe                         1280           N/A         4
+ 66. Memory Compression                  1352           N/A        30
+ 67. svchost.exe                         1528           N/A        11
+ 68. svchost.exe                         1596           N/A        15
+ 69. svchost.exe                         1624           N/A         5
+ 70. svchost.exe                         1632           N/A        15
+ 71. spoolsv.exe                         1704           N/A        11
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. Telegram.exe              -  363024 KB
+ 2. explorer.exe              -  136144 KB
+ 3. msedge.exe                -  119956 KB
+ 4. SearchApp.exe             -   79736 KB
+ 5. OneDrive.exe              -   65384 KB
+ 6. StartMenuExperienceHost.exe -   62196 KB
+ 7. svchost.exe               -   35616 KB
+ 8. msedge.exe                -   33140 KB
+ 9. RuntimeBroker.exe         -   32212 KB
+10. RuntimeBroker.exe         -   31584 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 04:09:02
+Server Hostname: Win10
+Total Threads in System: 1114
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 04:13:39 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 04:13:37
+Server: Win10
+Client IP: 192.168.0.102
+Total Processes: 69
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 966324 KB (943.68 MB)
+System Processes: 2
+User Processes: 67
+Average Memory per Process: 14004 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. Telegram.exe                        4800        333940        24
+  2. explorer.exe                        3028         95652        50
+  3. msedge.exe                          3420         92732        51
+  4. SearchApp.exe                       3604         55724        36
+  5. StartMenuExperienceHost.exe         3336         37648         9
+  6. svchost.exe                         2748         35664         8
+  7. OneDrive.exe                        2416         35008        25
+  8. msedge.exe                          4100         30760        18
+  9. ApplicationFrameHost.exe            4536         28404         4
+ 10. RuntimeBroker.exe                   3664         27568         6
+ 11. sihost.exe                          2720         27332        12
+ 12. RuntimeBroker.exe                   3508         22952         4
+ 13. msedge.exe                          4216         20332        15
+ 14. msedge.exe                          2452         17024        10
+ 15. svchost.exe                         1384         16688         4
+ 16. RuntimeBroker.exe                    896         14964         4
+ 17. ctfmon.exe                          3428         13664         9
+ 18. server_gui.exe                      4048         12804         3
+ 19. dllhost.exe                         3244         12480         6
+ 20. taskhostw.exe                       2800          9452         6
+ 21. SecurityHealthSystray.exe           4296          9056         2
+ 22. RuntimeBroker.exe                   4688          7724         2
+ 23. msedge.exe                          4340          7364         8
+ 24. WinStore.App.exe                    4564          1388        13
+ 25. svchost.exe                         1596           N/A         5
+ 26. svchost.exe                         1624           N/A         5
+ 27. svchost.exe                         1632           N/A         4
+ 28. spoolsv.exe                         1704           N/A         7
+ 29. svchost.exe                         1764           N/A        14
+ 30. svchost.exe                         1900           N/A        14
+ 31. MsMpEng.exe                         1988           N/A        23
+ 32. svchost.exe                         1256           N/A        12
+ 33. svchost.exe                         1368           N/A        26
+ 34. SearchIndexer.exe                   2144           N/A        15
+ 35. svchost.exe                         2508           N/A         6
+ 36. NisSrv.exe                          2568           N/A         5
+ 37. [System Process]                       0           N/A         1
+ 38. System                                 4           N/A       112
+ 39. Registry                              72           N/A         4
+ 40. MicrosoftEdgeUpdate.exe             2852           N/A         6
+ 41. smss.exe                             304           N/A         2
+ 42. csrss.exe                            400           N/A         9
+ 43. wininit.exe                          468           N/A         2
+ 44. csrss.exe                            476           N/A        11
+ 45. winlogon.exe                         536           N/A         6
+ 46. services.exe                         560           N/A         6
+ 47. lsass.exe                            568           N/A         7
+ 48. fontdrvhost.exe                      668           N/A         6
+ 49. fontdrvhost.exe                      676           N/A         6
+ 50. svchost.exe                          692           N/A        15
+ 51. svchost.exe                          780           N/A         9
+ 52. dwm.exe                              876           N/A        16
+ 53. SecurityHealthService.exe           4220           N/A         8
+ 54. svchost.exe                          972           N/A        59
+ 55. svchost.exe                          980           N/A        15
+ 56. svchost.exe                         1016           N/A        14
+ 57. svchost.exe                          260           N/A        18
+ 58. svchost.exe                          336           N/A        21
+ 59. svchost.exe                         1144           N/A        15
+ 60. svchost.exe                         1244           N/A         3
+ 61. Memory Compression                  1352           N/A        18
+ 62. svchost.exe                         1528           N/A         9
+ 63. svchost.exe                         4460           N/A        10
+ 64. SgrmBroker.exe                      4940           N/A         7
+ 65. svchost.exe                         5320           N/A         7
+ 66. svchost.exe                         5344           N/A         4
+ 67. WmiPrvSE.exe                        6044           N/A         8
+ 68. WmiPrvSE.exe                        1228           N/A        10
+ 69. sppsvc.exe                          5556           N/A         9
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. Telegram.exe              -  333940 KB
+ 2. explorer.exe              -   95652 KB
+ 3. msedge.exe                -   92732 KB
+ 4. SearchApp.exe             -   55724 KB
+ 5. StartMenuExperienceHost.exe -   37648 KB
+ 6. svchost.exe               -   35664 KB
+ 7. OneDrive.exe              -   35008 KB
+ 8. msedge.exe                -   30760 KB
+ 9. ApplicationFrameHost.exe  -   28404 KB
+10. RuntimeBroker.exe         -   27568 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 04:13:37
+Server Hostname: Win10
+Total Threads in System: 918
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 04:40:25 ===
+Server: 192.168.0.100:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 04:40:24
+Server: Win10
+Client IP: 192.168.0.102
+Total Processes: 69
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 582448 KB (568.80 MB)
+System Processes: 2
+User Processes: 67
+Average Memory per Process: 8441 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. Telegram.exe                        4800         88072        24
+  2. explorer.exe                        3028         86392        55
+  3. msedge.exe                          3420         45448        50
+  4. StartMenuExperienceHost.exe         3336         44588         8
+  5. svchost.exe                         2748         35064         7
+  6. sihost.exe                          2720         25940         8
+  7. RuntimeBroker.exe                   3664         25912         4
+  8. ApplicationFrameHost.exe            4536         23372         3
+  9. RuntimeBroker.exe                   3508         21256         1
+ 10. msedge.exe                          4100         19340        17
+ 11. msedge.exe                          4216         17364        14
+ 12. OneDrive.exe                        2416         16712        25
+ 13. SearchApp.exe                       3604         16188        37
+ 14. svchost.exe                         1384         15912         3
+ 15. msedge.exe                          2452         15204        10
+ 16. RuntimeBroker.exe                    896         14204         2
+ 17. ctfmon.exe                          3428         12688         8
+ 18. dllhost.exe                         3244         12552         5
+ 19. server_gui.exe                      3880         12272         2
+ 20. taskhostw.exe                       2800          9260         4
+ 21. SecurityHealthSystray.exe           4296          8908         1
+ 22. RuntimeBroker.exe                   4688          7468         1
+ 23. msedge.exe                          4340          7124         7
+ 24. WinStore.App.exe                    4564          1208        13
+ 25. svchost.exe                         1596           N/A         3
+ 26. svchost.exe                         1624           N/A         3
+ 27. svchost.exe                         1632           N/A         4
+ 28. spoolsv.exe                         1704           N/A         6
+ 29. svchost.exe                         1764           N/A        12
+ 30. svchost.exe                         1900           N/A         9
+ 31. svchost.exe                         1256           N/A        11
+ 32. SearchIndexer.exe                   2144           N/A        15
+ 33. svchost.exe                         2508           N/A         5
+ 34. [System Process]                       0           N/A         1
+ 35. System                                 4           N/A       104
+ 36. Registry                              72           N/A         4
+ 37. MicrosoftEdgeUpdate.exe             2852           N/A         4
+ 38. smss.exe                             304           N/A         2
+ 39. csrss.exe                            400           N/A         9
+ 40. wininit.exe                          468           N/A         1
+ 41. csrss.exe                            476           N/A        11
+ 42. winlogon.exe                         536           N/A         4
+ 43. services.exe                         560           N/A         6
+ 44. lsass.exe                            568           N/A         7
+ 45. fontdrvhost.exe                      668           N/A         5
+ 46. fontdrvhost.exe                      676           N/A         5
+ 47. svchost.exe                          692           N/A        11
+ 48. svchost.exe                          780           N/A         8
+ 49. dwm.exe                              876           N/A        16
+ 50. SecurityHealthService.exe           4220           N/A         7
+ 51. svchost.exe                          972           N/A        46
+ 52. svchost.exe                          980           N/A        13
+ 53. svchost.exe                         1016           N/A        13
+ 54. svchost.exe                          260           N/A        16
+ 55. svchost.exe                          336           N/A        17
+ 56. svchost.exe                         1144           N/A        16
+ 57. svchost.exe                         1244           N/A         2
+ 58. Memory Compression                  1352           N/A        18
+ 59. svchost.exe                         4460           N/A         9
+ 60. SgrmBroker.exe                      4940           N/A         7
+ 61. svchost.exe                         5320           N/A         8
+ 62. svchost.exe                         5344           N/A         2
+ 63. WmiPrvSE.exe                        6044           N/A         3
+ 64. MsMpEng.exe                         2120           N/A        23
+ 65. MpDefenderCoreService.exe           6004           N/A        10
+ 66. NisSrv.exe                          5452           N/A         4
+ 67. dllhost.exe                         2468           N/A         4
+ 68. WmiPrvSE.exe                        5736           N/A         6
+ 69. svchost.exe                         1528           N/A         6
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. Telegram.exe              -   88072 KB
+ 2. explorer.exe              -   86392 KB
+ 3. msedge.exe                -   45448 KB
+ 4. StartMenuExperienceHost.exe -   44588 KB
+ 5. svchost.exe               -   35064 KB
+ 6. sihost.exe                -   25940 KB
+ 7. RuntimeBroker.exe         -   25912 KB
+ 8. ApplicationFrameHost.exe  -   23372 KB
+ 9. RuntimeBroker.exe         -   21256 KB
+10. msedge.exe                -   19340 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 04:40:24
+Server Hostname: Win10
+Total Threads in System: 806
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 04:52:50 ===
+Server: 10.223.20.108:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 04:52:50
+Server: XtremeLite-PC
+Client IP: 10.223.20.108
+Total Processes: 165
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 10273788 KB (10033.00 MB)
+System Processes: 2
+User Processes: 163
+Average Memory per Process: 62265 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. clion64.exe                         6544       1961316       133
+  2. Rider.Backend.exe                   9800       1072364        71
+  3. firefox.exe                        12156        957616        40
+  4. steamwebhelper.exe                  9020        381384        20
+  5. firefox.exe                         1460        366012        86
+  6. firefox.exe                        10228        330148        48
+  7. firefox.exe                        14068        324688        31
+  8. full-line-inference.exe            10616        288808        26
+  9. clangd.exe                         11228        271180        14
+ 10. Discord.exe                        10028        178644        56
+ 11. Telegram.exe                       11168        164144       105
+ 12. explorer.exe                        6088        160484       108
+ 13. steamwebhelper.exe                  6696        147440        32
+ 14. firefox.exe                        10404        135000        27
+ 15. firefox.exe                         3132        128204        30
+ 16. Discord.exe                         9064        118240        69
+ 17. Discord.exe                         1048        106964        40
+ 18. firefox.exe                        11328        104228        29
+ 19. SysInfoCap.exe                      2980        103720        17
+ 20. firefox.exe                        11976        103244        28
+ 21. SearchApp.exe                       6964         98676        42
+ 22. firefox.exe                         2020         97704        27
+ 23. AMDRSServ.exe                      11032         83236        10
+ 24. Discord.exe                         6636         82532         7
+ 25. steamwebhelper.exe                  8084         80088        32
+ 26. Registry                             172         74868         4
+ 27. ShellExperienceHost.exe             9504         72776        21
+ 28. steam.exe                           6296         72068        40
+ 29. VirtualBox.exe                     11960         69984         9
+ 30. TouchpointAnalyticsClientService.exe      2972         66480        11
+ 31. StartMenuExperienceHost.exe         6396         61312         9
+ 32. powershell.exe                     13188         60216         9
+ 33. svchost.exe                         1028         60072        46
+ 34. AMDRSSrcExt.exe                    13924         59364        11
+ 35. Discord.exe                         5388         53476        18
+ 36. WINWORD.EXE                        10224         49216        17
+ 37. firefox.exe                        11352         46520         9
+ 38. RadeonSoftware.exe                  9584         44524        52
+ 39. firefox.exe                        11760         43240        27
+ 40. TextInputHost.exe                  11520         43092        14
+ 41. steamwebhelper.exe                 11052         37820        20
+ 42. firefox.exe                        12544         37684        29
+ 43. NVDisplay.Container.exe             2596         37400        26
+ 44. svchost.exe                         1576         36168        23
+ 45. audiodg.exe                         7920         34344        13
+ 46. svchost.exe                         5692         33908         9
+ 47. BOAudioControl.exe                  8488         33568        16
+ 48. RuntimeBroker.exe                   7060         32428        12
+ 49. ApplicationFrameHost.exe            3032         32136         3
+ 50. Discord.exe                         9052         31444         7
+ 51. NVDisplay.Container.exe             1884         30660        33
+ 52. firefox.exe                        13608         30372        26
+ 53. svchost.exe                         1320         30196        11
+ 54. RuntimeBroker.exe                   6648         29712         1
+ 55. RuntimeBroker.exe                  10812         29388         6
+ 56. sihost.exe                          5664         28992         9
+ 57. uTorrent.exe                        7600         27940        45
+ 58. steamwebhelper.exe                  8336         26884        16
+ 59. svchost.exe                         1440         24848        11
+ 60. svchost.exe                         1676         24692        31
+ 61. svchost.exe                         1560         24540        21
+ 62. firefox.exe                         5892         23176        26
+ 63. firefox.exe                        14196         23144        26
+ 64. NetworkCap.exe                      2988         23016         4
+ 65. svchost.exe                         4220         22376        13
+ 66. ctfmon.exe                          5904         21820        13
+ 67. svchost.exe                         2068         20724        24
+ 68. svchost.exe                         2684         20368        25
+ 69. firefox.exe                        11636         18660         5
+ 70. VBoxSVC.exe                         9864         18608        18
+ 71. svchost.exe                         4124         17768        15
+ 72. conhost.exe                        11648         17400         7
+ 73. RtkAudUService64.exe                6308         16952        10
+ 74. msedgewebview2.exe                  1880         16880        51
+ 75. lsass.exe                           1184         16188         8
+ 76. svchost.exe                         1644         15940         4
+ 77. steamwebhelper.exe                  8528         15692         9
+ 78. RuntimeBroker.exe                   7812         15340         2
+ 79. firefox.exe                        12100         15112         8
+ 80. helper.exe                         10488         15100        32
+ 81. AppHelperCap.exe                    2956         14760         3
+ 82. svchost.exe                         6084         14500         2
+ 83. atieclxx.exe                        2940         14492        11
+ 84. AUEPDU.exe                         13996         14368         7
+ 85. firefox.exe                        12804         14148         5
+ 86. dllhost.exe                         7336         14056         4
+ 87. svchost.exe                         3932         14004        13
+ 88. utorrentie.exe                      1248         13564         7
+ 89. DiagsCap.exe                        2964         13468         3
+ 90. svchost.exe                         1452         13116        10
+ 91. utorrentie.exe                      2520         13108         5
+ 92. svchost.exe                        12448         12648         3
+ 93. firefox.exe                        10500         12352         5
+ 94. svchost.exe                         4752         12012        11
+ 95. client_gui.exe                     14412         11812         3
+ 96. dllhost.exe                        13152         11780         5
+ 97. server_gui.exe                     14364         11556         5
+ 98. RtkAudUService64.exe                4400         10996        10
+ 99. svchost.exe                        13928         10544         1
+100. sppsvc.exe                         13868         10536         4
+
+... and 65 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. clion64.exe               - 1961316 KB
+ 2. Rider.Backend.exe         - 1072364 KB
+ 3. firefox.exe               -  957616 KB
+ 4. steamwebhelper.exe        -  381384 KB
+ 5. firefox.exe               -  366012 KB
+ 6. firefox.exe               -  330148 KB
+ 7. firefox.exe               -  324688 KB
+ 8. full-line-inference.exe   -  288808 KB
+ 9. clangd.exe                -  271180 KB
+10. Discord.exe               -  178644 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 04:52:50
+Server Hostname: XtremeLite-PC
+Total Threads in System: 2879
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 05:05:12 ===
+Server: 10.223.20.108:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 05:05:12
+Server: XtremeLite-PC
+Client IP: 10.223.20.108
+Total Processes: 166
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 10361904 KB (10119.05 MB)
+System Processes: 2
+User Processes: 164
+Average Memory per Process: 62421 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. clion64.exe                         6544       1993296       128
+  2. Rider.Backend.exe                   9800       1133576        71
+  3. firefox.exe                        12156        999620        41
+  4. firefox.exe                        14068        406668        32
+  5. steamwebhelper.exe                  9020        377416        20
+  6. firefox.exe                         1460        374500        87
+  7. clangd.exe                         11228        271276        14
+  8. full-line-inference.exe            10616        236680        26
+  9. firefox.exe                        10228        226916        47
+ 10. Discord.exe                        10028        180448        58
+ 11. Telegram.exe                       11168        164464       104
+ 12. explorer.exe                        6088        156332       100
+ 13. steamwebhelper.exe                  6696        147548        32
+ 14. firefox.exe                        11976        142148        28
+ 15. firefox.exe                        10404        133904        27
+ 16. firefox.exe                         3132        119176        29
+ 17. Discord.exe                         9064        117888        71
+ 18. firefox.exe                        11328        107200        28
+ 19. Discord.exe                         1048        107020        40
+ 20. SysInfoCap.exe                      2980        103648        16
+ 21. SearchApp.exe                       6964         98676        42
+ 22. firefox.exe                         2020         96024        27
+ 23. AMDRSServ.exe                      11032         83220        10
+ 24. Discord.exe                         6636         82532         7
+ 25. steamwebhelper.exe                  8084         80140        32
+ 26. Registry                             172         74860         4
+ 27. ShellExperienceHost.exe             9504         72972        23
+ 28. steam.exe                           6296         70268        38
+ 29. VirtualBox.exe                     11960         70036         7
+ 30. TouchpointAnalyticsClientService.exe      2972         69492        10
+ 31. StartMenuExperienceHost.exe         6396         61276         6
+ 32. powershell.exe                     13188         60896         9
+ 33. AMDRSSrcExt.exe                    13924         59364        11
+ 34. svchost.exe                         1028         54728        38
+ 35. Discord.exe                         5388         53516        16
+ 36. firefox.exe                        11352         49656         9
+ 37. WINWORD.EXE                        10224         49248        17
+ 38. RadeonSoftware.exe                  9584         44348        52
+ 39. TextInputHost.exe                  11520         43480        13
+ 40. firefox.exe                        11760         43064        27
+ 41. steamwebhelper.exe                 11052         37820        20
+ 42. firefox.exe                        12544         37712        29
+ 43. NVDisplay.Container.exe             2596         37300        26
+ 44. svchost.exe                         1576         36140        22
+ 45. svchost.exe                         5692         33744         7
+ 46. BOAudioControl.exe                  8488         33568        16
+ 47. audiodg.exe                         7920         33472        12
+ 48. RuntimeBroker.exe                   7060         32412        13
+ 49. ApplicationFrameHost.exe            3032         32136         3
+ 50. Discord.exe                         9052         31444         7
+ 51. NVDisplay.Container.exe             1884         30628        33
+ 52. svchost.exe                         1320         30224        12
+ 53. firefox.exe                        13608         30004        26
+ 54. RuntimeBroker.exe                   6648         29724         2
+ 55. sihost.exe                          5664         28944         8
+ 56. uTorrent.exe                        7600         28300        42
+ 57. steamwebhelper.exe                  8336         26948        17
+ 58. RuntimeBroker.exe                  10812         24824         4
+ 59. svchost.exe                         1440         24768         9
+ 60. svchost.exe                         1676         24664        26
+ 61. svchost.exe                         1560         23988        12
+ 62. firefox.exe                         5892         23180        26
+ 63. firefox.exe                        14196         23144        26
+ 64. NetworkCap.exe                      2988         22992         3
+ 65. svchost.exe                         4220         22340        12
+ 66. ctfmon.exe                          5904         21964        12
+ 67. svchost.exe                         2684         20404        26
+ 68. svchost.exe                         2068         20192        17
+ 69. firefox.exe                        11636         18660         5
+ 70. VBoxSVC.exe                         9864         18616        15
+ 71. conhost.exe                        11648         17960         4
+ 72. svchost.exe                         4124         17760        13
+ 73. RtkAudUService64.exe                6308         16956        10
+ 74. msedgewebview2.exe                  1880         16876        51
+ 75. lsass.exe                           1184         16044         8
+ 76. svchost.exe                         1644         16028         6
+ 77. steamwebhelper.exe                  8528         15688         9
+ 78. RuntimeBroker.exe                   7812         15500         2
+ 79. helper.exe                         10488         15096        32
+ 80. firefox.exe                        12100         15092         8
+ 81. AppHelperCap.exe                    2956         14716         3
+ 82. atieclxx.exe                        2940         14532        12
+ 83. svchost.exe                         6084         14516         3
+ 84. firefox.exe                        12804         14148         5
+ 85. AUEPDU.exe                         13996         14144         2
+ 86. dllhost.exe                         7336         14056         4
+ 87. svchost.exe                         3932         13928        12
+ 88. utorrentie.exe                      1248         13512         5
+ 89. DiagsCap.exe                        2964         13468         3
+ 90. svchost.exe                         1452         13268        11
+ 91. utorrentie.exe                      2520         13104         5
+ 92. svchost.exe                        12448         12648         3
+ 93. firefox.exe                        10500         12356         5
+ 94. client_gui.exe                      7288         12056         3
+ 95. svchost.exe                         4752         12008        12
+ 96. dllhost.exe                        13152         11776         5
+ 97. server_gui.exe                     10664         11464         5
+ 98. RtkAudUService64.exe                4400         10996        10
+ 99. sppsvc.exe                         13868         10668         4
+100. svchost.exe                        13928         10608         3
+
+... and 66 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. clion64.exe               - 1993296 KB
+ 2. Rider.Backend.exe         - 1133576 KB
+ 3. firefox.exe               -  999620 KB
+ 4. firefox.exe               -  406668 KB
+ 5. steamwebhelper.exe        -  377416 KB
+ 6. firefox.exe               -  374500 KB
+ 7. clangd.exe                -  271276 KB
+ 8. full-line-inference.exe   -  236680 KB
+ 9. firefox.exe               -  226916 KB
+10. Discord.exe               -  180448 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 05:05:12
+Server Hostname: XtremeLite-PC
+Total Threads in System: 2800
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 05:08:47 ===
+Server: 10.223.20.90:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 05:08:45
+Server: Win10
+Client IP: 10.223.20.108
+Total Processes: 78
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 1193404 KB (1165.43 MB)
+System Processes: 2
+User Processes: 76
+Average Memory per Process: 15300 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. Telegram.exe                        5296        337788        25
+  2. explorer.exe                        1452         98532        65
+  3. msedge.exe                          4624         94024        57
+  4. SearchApp.exe                       3812         75236        34
+  5. StartMenuExperienceHost.exe         3656         60076        39
+  6. OneDrive.exe                        4812         44248        29
+  7. svchost.exe                         2416         35804        15
+  8. msedge.exe                          5116         31812        21
+  9. RuntimeBroker.exe                   2964         31520        12
+ 10. RuntimeBroker.exe                   3900         30200        15
+ 11. ApplicationFrameHost.exe            5656         28540         7
+ 12. backgroundTaskHost.exe              6100         25984        12
+ 13. sihost.exe                          2396         24636        15
+ 14. RuntimeBroker.exe                   3724         22992         9
+ 15. msedge.exe                          4608         21820        15
+ 16. smartscreen.exe                     4328         21816        11
+ 17. backgroundTaskHost.exe              6048         21276        12
+ 18. svchost.exe                         3188         19252         8
+ 19. backgroundTaskHost.exe              6072         18696        12
+ 20. WinStore.App.exe                    5648         18376        13
+ 21. RuntimeBroker.exe                   4236         18032         7
+ 22. conhost.exe                         5164         17976         5
+ 23. msedge.exe                          4480         17516         9
+ 24. ctfmon.exe                          3048         14300        10
+ 25. server_gui.exe                      5900         12672         6
+ 26. dllhost.exe                         3368         12644         9
+ 27. taskhostw.exe                       2612          9196         6
+ 28. SecurityHealthSystray.exe           5036          9016         6
+ 29. RuntimeBroker.exe                   5780          7772         3
+ 30. msedge.exe                          4844          7384         8
+ 31. cmd.exe                             4932          4268         2
+ 32. svchost.exe                         2008           N/A        30
+ 33. svchost.exe                         1332           N/A        14
+ 34. SearchIndexer.exe                   2112           N/A        19
+ 35. MpDefenderCoreService.exe           2640           N/A        10
+ 36. svchost.exe                         2648           N/A        10
+ 37. dllhost.exe                         2920           N/A         7
+ 38. [System Process]                       0           N/A         1
+ 39. System                                 4           N/A       110
+ 40. MicrosoftEdgeUpdate.exe             1996           N/A         6
+ 41. Registry                              72           N/A         4
+ 42. smss.exe                             308           N/A         2
+ 43. csrss.exe                            396           N/A         9
+ 44. wininit.exe                          464           N/A         1
+ 45. csrss.exe                            472           N/A        11
+ 46. NisSrv.exe                          3484           N/A         7
+ 47. winlogon.exe                         532           N/A         4
+ 48. services.exe                         556           N/A         8
+ 49. lsass.exe                            564           N/A        12
+ 50. fontdrvhost.exe                      668           N/A         5
+ 51. fontdrvhost.exe                      680           N/A         5
+ 52. svchost.exe                          696           N/A        24
+ 53. svchost.exe                          788           N/A        10
+ 54. SecurityHealthService.exe           4708           N/A        15
+ 55. dwm.exe                              880           N/A        17
+ 56. svchost.exe                          940           N/A        60
+ 57. svchost.exe                          976           N/A        14
+ 58. svchost.exe                          996           N/A        20
+ 59. svchost.exe                          276           N/A        13
+ 60. svchost.exe                          920           N/A        22
+ 61. svchost.exe                         1136           N/A        22
+ 62. Memory Compression                  1272           N/A        30
+ 63. svchost.exe                         1372           N/A         3
+ 64. svchost.exe                         1528           N/A         8
+ 65. svchost.exe                         1588           N/A         6
+ 66. svchost.exe                         1612           N/A         3
+ 67. svchost.exe                         1620           N/A         5
+ 68. spoolsv.exe                         1696           N/A        10
+ 69. svchost.exe                         1740           N/A        14
+ 70. svchost.exe                         1884           N/A        16
+ 71. MsMpEng.exe                         1984           N/A        31
+ 72. svchost.exe                         4092           N/A        13
+ 73. WmiPrvSE.exe                        4284           N/A        11
+ 74. SgrmBroker.exe                       572           N/A         7
+ 75. sppsvc.exe                          5740           N/A         8
+ 76. MoUsoCoreWorker.exe                 2132           N/A         9
+ 77. svchost.exe                         2372           N/A        14
+ 78. svchost.exe                         1428           N/A         6
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. Telegram.exe              -  337788 KB
+ 2. explorer.exe              -   98532 KB
+ 3. msedge.exe                -   94024 KB
+ 4. SearchApp.exe             -   75236 KB
+ 5. StartMenuExperienceHost.exe -   60076 KB
+ 6. OneDrive.exe              -   44248 KB
+ 7. svchost.exe               -   35804 KB
+ 8. msedge.exe                -   31812 KB
+ 9. RuntimeBroker.exe         -   31520 KB
+10. RuntimeBroker.exe         -   30200 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 05:08:45
+Server Hostname: Win10
+Total Threads in System: 1185
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 16:31:21 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 16:31:21
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 158
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 11575240 KB (11303.95 MB)
+System Processes: 2
+User Processes: 156
+Average Memory per Process: 73261 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+------------------------------------------------------------------------
+  1. idea64.exe                          3364       2481172       190
+  2. clion64.exe                         2344       2039856       121
+  3. Rider.Backend.exe                   3204        608908        69
+  4. Telegram.exe                        2744        534876       115
+  5. Discord.exe                        10072        389020        53
+  6. steamwebhelper.exe                  8604        369972        20
+  7. firefox.exe                          276        366240        88
+  8. firefox.exe                         1948        355940        44
+  9. SysInfoCap.exe                      3016        232612        17
+ 10. Discord.exe                         8896        215840        40
+ 11. firefox.exe                        11252        194068        35
+ 12. explorer.exe                        6060        169424       100
+ 13. steamwebhelper.exe                  7940        152156        32
+ 14. java.exe                           13432        149348        64
+ 15. Discord.exe                         9816        147620        54
+ 16. firefox.exe                         1820        129348        16
+ 17. AMDRSSrcExt.exe                     4576        115180        11
+ 18. clangd.exe                          3700        105656         5
+ 19. firefox.exe                         4956        103424        31
+ 20. RadeonSoftware.exe                  7916        100868        50
+ 21. SearchApp.exe                       6932         90772        40
+ 22. steamwebhelper.exe                 10508         89612        20
+ 23. Discord.exe                         7904         87584         9
+ 24. AMDRSServ.exe                      10664         84428        10
+ 25. steam.exe                           7252         82528        38
+ 26. TouchpointAnalyticsClientService.exe      3000         79764        11
+ 27. StartMenuExperienceHost.exe         6532         74476         9
+ 28. svchost.exe                         1348         62072        41
+ 29. ShellExperienceHost.exe             5512         61676        18
+ 30. steamwebhelper.exe                  7760         61112        16
+ 31. firefox.exe                         2032         57676        31
+ 32. firefox.exe                         6636         57432        29
+ 33. Discord.exe                         9072         53788        16
+ 34. svchost.exe                         1588         51772        24
+ 35. TextInputHost.exe                  11748         50472        15
+ 36. NVDisplay.Container.exe             2644         45460        26
+ 37. firefox.exe                         9860         44448        32
+ 38. uTorrent.exe                        8756         36828        42
+ 39. audiodg.exe                        12280         36788        18
+ 40. svchost.exe                         5604         35916        10
+ 41. NVDisplay.Container.exe             2056         34828        33
+ 42. RuntimeBroker.exe                   7088         32980        13
+ 43. Discord.exe                        10200         32628         7
+ 44. svchost.exe                         1328         32512        23
+ 45. DiagsCap.exe                        2992         32468         3
+ 46. svchost.exe                         2732         32200        24
+ 47. svchost.exe                         6216         30580        16
+ 48. firefox.exe                         9812         30572        30
+ 49. firefox.exe                         7228         30508        30
+ 50. firefox.exe                        11668         30456        30
+ 51. sihost.exe                          5580         30128        18
+ 52. RuntimeBroker.exe                   6736         29624         3
+ 53. svchost.exe                         1572         29548        12
+ 54. ApplicationFrameHost.exe           10080         29132         2
+ 55. svchost.exe                         1684         27860        33
+ 56. steamwebhelper.exe                  8360         27536        18
+ 57. RuntimeBroker.exe                  13324         25844        12
+ 58. NetworkCap.exe                      3008         24124         3
+ 59. firefox.exe                        11464         21948         8
+ 60. ctfmon.exe                          5872         21012        14
+ 61. steamwebhelper.exe                  8480         20972         9
+ 62. Registry                             172         20580         4
+ 63. RuntimeBroker.exe                   7836         20380         5
+ 64. svchost.exe                         2116         20132        19
+ 65. svchost.exe                         4156         19772        12
+ 66. svchost.exe                         4300         19192        12
+ 67. helper.exe                         11204         18780        32
+ 68. firefox.exe                        12120         17984         7
+ 69. svchost.exe                         2064         17820         5
+ 70. lsass.exe                           1192         17356         9
+ 71. dllhost.exe                         7260         17272         4
+ 72. RuntimeBroker.exe                   9104         17044         2
+ 73. AUEPDU.exe                          7700         16748         2
+ 74. firefox.exe                         6388         16736        10
+ 75. atieclxx.exe                        2940         15724        13
+ 76. firefox.exe                         6004         15680         7
+ 77. utorrentie.exe                      9092         15308         9
+ 78. svchost.exe                         3936         15276        14
+ 79. utorrentie.exe                      8536         14988         8
+ 80. conhost.exe                         4740         14864         4
+ 81. AppHelperCap.exe                    2984         14072         3
+ 82. sppsvc.exe                          7004         14036         1
+ 83. svchost.exe                         7312         13896        10
+ 84. svchost.exe                         1452         13384        12
+ 85. svchost.exe                         4812         13072        11
+ 86. RtkAudUService64.exe                8152         13020        12
+ 87. RtkAudUService64.exe                4472         12720        12
+ 88. svchost.exe                        10656         11892         1
+ 89. winlogon.exe                        1120         11168         6
+ 90. steamwebhelper.exe                  3284         11072         6
+ 91. conhost.exe                        13440         11012         2
+ 92. server_gui.exe                     13708         10992         5
+ 93. client_gui.exe                     13072         10980         6
+ 94. conhost.exe                         2372         10964         2
+ 95. svchost.exe                         1576         10948         8
+ 96. conhost.exe                        12764         10900         2
+ 97. conhost.exe                        10920         10860         2
+ 98. conhost.exe                         6096         10860         2
+ 99. RtkAudUService64.exe                6704         10696         7
+100. msedgewebview2.exe                  6592         10664        48
+
+... and 58 more processes not shown
+
+=== TOP 10 PROCESSES BY MEMORY ===
+ 1. idea64.exe                - 2481172 KB
+ 2. clion64.exe               - 2039856 KB
+ 3. Rider.Backend.exe         -  608908 KB
+ 4. Telegram.exe              -  534876 KB
+ 5. Discord.exe               -  389020 KB
+ 6. steamwebhelper.exe        -  369972 KB
+ 7. firefox.exe               -  366240 KB
+ 8. firefox.exe               -  355940 KB
+ 9. SysInfoCap.exe            -  232612 KB
+10. Discord.exe               -  215840 KB
+
+=== SYSTEM INFORMATION ===
+Scan Time: 2025-12-10 16:31:21
+Server Hostname: XtremeLite-PC
+Total Threads in System: 3035
+Server Port: 8888
+Protocol: TCP
+
+
+=== 2025-12-10 17:49:09 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 17:49:09
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 150
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 12802892 KB (12502.82 MB)
+System Processes: 2
+User Processes: 148
+Total Threads: 2631
+Average Memory per Process: 85352 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+=========================================================================
+  1. clion64.exe                         2344       2345956       152
+  2. clangd.exe                          3700       1700588        71
+  3. idea64.exe                          3364       1617468        93
+  4. Rider.Backend.exe                   3204       1181468        70
+  5. firefox.exe                         1948        596260        41
+  6. firefox.exe                          276        379216        86
+  7. steamwebhelper.exe                  8604        370688        20
+  8. Telegram.exe                        2744        293132        97
+  9. firefox.exe                         7228        273828        32
+ 10. full-line-inference.exe             6560        225132        26
+ 11. steamwebhelper.exe                  7760        201516        31
+ 12. Discord.exe                        10072        198952        53
+ 13. firefox.exe                        11252        148980        32
+ 14. steamwebhelper.exe                  7940        146368        31
+ 15. explorer.exe                        6060        144164        90
+ 16. java.exe                           13432        142060        42
+ 17. Discord.exe                         9816        106736        54
+ 18. firefox.exe                         4956        104732        28
+ 19. SysInfoCap.exe                      3016        103664        17
+ 20. steamwebhelper.exe                 10508         94692        20
+ 21. SearchApp.exe                       6932         89256        39
+ 22. Discord.exe                         8896         86864        40
+ 23. AMDRSServ.exe                      10664         82660        10
+ 24. Discord.exe                         7904         82600         9
+ 25. powershell.exe                     13280         82340        12
+ 26. powershell.exe                     11272         81568         9
+ 27. TouchpointAnalyticsClientService.exe      3000         74816        11
+ 28. firefox.exe                         2032         74472        28
+ 29. steam.exe                           7252         65648        38
+ 30. StartMenuExperienceHost.exe         6532         61128        11
+ 31. RadeonSoftware.exe                  7916         59264        51
+ 32. svchost.exe                         1348         56824        41
+ 33. AMDRSSrcExt.exe                     4576         51284        11
+ 34. Discord.exe                         9072         50940        16
+ 35. ShellExperienceHost.exe             5512         48892        17
+ 36. firefox.exe                         6636         43700        27
+ 37. TextInputHost.exe                  11748         42240        13
+ 38. firefox.exe                         6668         39996        28
+ 39. NVDisplay.Container.exe             2644         37704        26
+ 40. firefox.exe                         1820         36148        10
+ 41. audiodg.exe                        12280         35868        18
+ 42. svchost.exe                         1588         32680        26
+ 43. svchost.exe                         5604         32504        11
+ 44. RuntimeBroker.exe                   7088         31556        12
+ 45. Discord.exe                        10200         30784         7
+ 46. NVDisplay.Container.exe             2056         30144        33
+ 47. svchost.exe                         1328         29824        13
+ 48. firefox.exe                         9440         29524        26
+ 49. firefox.exe                        11832         29240        26
+ 50. firefox.exe                         9456         29188        26
+ 51. sihost.exe                          5580         27384        10
+ 52. RuntimeBroker.exe                   6736         26840         2
+ 53. steamwebhelper.exe                  8360         25912        18
+ 54. svchost.exe                         6216         24824        12
+ 55. svchost.exe                         1684         24764        30
+ 56. ApplicationFrameHost.exe           10080         23924         2
+ 57. svchost.exe                         1572         23308        11
+ 58. NetworkCap.exe                      3008         22344         4
+ 59. ctfmon.exe                          5872         21120        12
+ 60. svchost.exe                         2732         20312        26
+ 61. svchost.exe                         4300         18952        12
+ 62. svchost.exe                         2116         18316        17
+ 63. firefox.exe                        11464         18188         5
+ 64. RuntimeBroker.exe                   9104         16752         2
+ 65. svchost.exe                         4156         16552        15
+ 66. svchost.exe                         2064         16108         8
+ 67. steamwebhelper.exe                  8480         15612         9
+ 68. lsass.exe                           1192         15020         9
+ 69. RuntimeBroker.exe                   7836         14968         1
+ 70. firefox.exe                         6388         14720         8
+ 71. firefox.exe                        12120         14316         5
+ 72. svchost.exe                         3936         13928        13
+ 73. atieclxx.exe                        2940         13800        13
+ 74. dllhost.exe                         7260         13464         6
+ 75. sppsvc.exe                          7004         13304         4
+ 76. AppHelperCap.exe                    2984         13128         3
+ 77. DiagsCap.exe                        2992         12876         3
+ 78. Registry                             172         12724         4
+ 79. svchost.exe                         7312         12444         3
+ 80. svchost.exe                         1452         12356        10
+ 81. firefox.exe                         6004         12200         5
+ 82. ProcessMonitorClient.exe           12040         11832         6
+ 83. ProcessMonitorServer.exe            9408         11248         7
+ 84. RtkAudUService64.exe                8152         11092        12
+ 85. RtkAudUService64.exe                4472         10892        12
+ 86. svchost.exe                         4812         10860        12
+ 87. svchost.exe                        10656         10492         3
+ 88. conhost.exe                        14300         10236         2
+ 89. svchost.exe                         1576          9416         9
+ 90. AUEPDU.exe                          7700          9368         2
+ 91. steamwebhelper.exe                  3284          9232         6
+ 92. winlogon.exe                        1120          9140         6
+ 93. RtkAudUService64.exe                6704          9032         7
+ 94. OpenConsole.exe                    10476          8976         4
+ 95. OpenConsole.exe                    11284          8972         4
+ 96. UserOOBEBroker.exe                  8736          8628         3
+ 97. conhost.exe                         4740          8596         4
+ 98. svchost.exe                         4080          8568         6
+ 99. services.exe                        1184          7956         8
+100. SECOCL64.exe                        4708          7712        14
+101. SECOMN64.exe                        4484          7324         6
+102. svchost.exe                         4456          6940         5
+103. CompPkgSrv.exe                      9032          6852         1
+104. crashhelper.exe                    10380          6376         2
+105. svchost.exe                         3520          6280         7
+106. jusched.exe                        10052          6184         1
+107. RtkBtManServ.exe                    4464          5992         8
+108. amdfendrsr.exe                      2288          5764         4
+109. atiesrxx.exe                        2300          5412         7
+110. OmenCap.exe                          652          5404         
+
+=== 2025-12-10 17:49:49 ===
+Server: 192.168.0.102:8888
+=== REMOTE PROCESS MONITOR ===
+Time: 2025-12-10 17:49:49
+Server: XtremeLite-PC
+Client IP: 192.168.0.102
+Total Processes: 150
+
+=== MEMORY STATISTICS ===
+Total Memory Used: 12848952 KB (12547.80 MB)
+System Processes: 2
+User Processes: 148
+Total Threads: 2593
+Average Memory per Process: 85659 KB
+
+=== ALL PROCESSES (Sorted by Memory Usage) ===
+No.  Process Name                     PID        Memory (KB)   Threads
+=========================================================================
+  1. clion64.exe                         2344       2351932       152
+  2. clangd.exe                          3700       1700588        71
+  3. idea64.exe                          3364       1602664        93
+  4. Rider.Backend.exe                   3204       1179924        71
+  5. firefox.exe                         1948        602836        40
+  6. firefox.exe                          276        371508        88
+  7. steamwebhelper.exe                  8604        370748        20
+  8. Telegram.exe                        2744        278628        97
+  9. firefox.exe                         7228        272196        31
+ 10. Discord.exe                        10072        271688        53
+ 11. full-line-inference.exe             6560        225132        26
+ 12. steamwebhelper.exe                  7760        201480        30
+ 13. explorer.exe                        6060        152196        98
+ 14. firefox.exe                        11252        148776        31
+ 15. steamwebhelper.exe                  7940        146380        32
+ 16. java.exe                           13432        141948        42
+ 17. Discord.exe                         9816        106732        54
+ 18. SysInfoCap.exe                      3016        103632        16
+ 19. firefox.exe                         4956        102028        29
+ 20. steamwebhelper.exe                 10508         94724        20
+ 21. SearchApp.exe                       6932         89256        39
+ 22. Discord.exe                         8896         86864        40
+ 23. AMDRSServ.exe                      10664         82660        10
+ 24. Discord.exe                         7904         82600         9
+ 25. powershell.exe                     13280         82340        12
+ 26. powershell.exe                     11272         81568         9
+ 27. firefox.exe                         2032         74156        28
+ 28. TouchpointAnalyticsClientService.exe      3000         73896        10
+ 29. steam.exe                           7252         65648        38
+ 30. StartMenuExperienceHost.exe         6532         61076         9
+ 31. RadeonSoftware.exe                  7916         59276        51
+ 32. svchost.exe                         1348         56796        40
+ 33. AMDRSSrcExt.exe                     4576         51288        11
+ 34. Discord.exe                         9072         50944        16
+ 35. ShellExperienceHost.exe             5512         48892        17
+ 36. firefox.exe                         6636         43368        27
+ 37. TextInputHost.exe                  11748         42184        12
+ 38. firefox.exe                         6668         39968        29
+ 39. NVDisplay.Container.exe             2644         37704        26
+ 40. firefox.exe                         1820         36092         8
+ 41. audiodg.exe                        12280         35868        18
+ 42. svchost.exe                         1588         32596        23
+ 43. svchost.exe                         5604         32432         8
+ 44. RuntimeBroker.exe                   7088         31548        12
+ 45. Discord.exe                        10200         30784         7
+ 46. NVDisplay.Container.exe             2056         30144        33
+ 47. svchost.exe                         1328         29852        14
+ 48. firefox.exe                         9440         29524        26
+ 49. firefox.exe                        11832         29240        26
+ 50. firefox.exe                         9456         29188        26
+ 51. sihost.exe                          5580         27308         7
+ 52. RuntimeBroker.exe                   6736         26808         1
+ 53. steamwebhelper.exe                  8360         25908        18
+ 54. svchost.exe                         1684         24764        30
+ 55. svchost.exe                         6216         24668         9
+ 56. ApplicationFrameHost.exe           10080         23924         2
+ 57. svchost.exe                         1572         22744        12
+ 58. NetworkCap.exe                      3008         22332         3
+ 59. ctfmon.exe                          5872         21092        12
+ 60. svchost.exe                         2732         20304        26
+ 61. svchost.exe                         4300         18960        12
+ 62. svchost.exe                         2116         18316        17
+ 63. firefox.exe                        11464         18124         5
+ 64. RuntimeBroker.exe                   9104         16752         2
+ 65. svchost.exe                         4156         16568        15
+ 66. svchost.exe                         2064         16132         8
+ 67. steamwebhelper.exe                  8480         15612         9
+ 68. lsass.exe                           1192         15020         9
+ 69. RuntimeBroker.exe                   7836         14968         1
+ 70. firefox.exe                         6388         14712         8
+ 71. firefox.exe                        12120         14064         5
+ 72. svchost.exe                         3936         13848        12
+ 73. atieclxx.exe                        2940         13776        11
+ 74. dllhost.exe                         7260         13432         4
+ 75. sppsvc.exe                          7004         13308         4
+ 76. AppHelperCap.exe                    2984         13128         3
+ 77. DiagsCap.exe                        2992         12876         3
+ 78. Registry                             172         12812         4
+ 79. svchost.exe                         7312         12436         3
+ 80. svchost.exe                         1452         12368         9
+ 81. firefox.exe                         6004         12144         5
+ 82. ProcessMonitorServer.exe            9408         11652         4
+ 83. RtkAudUService64.exe                8152         11088        12
+ 84. ProcessMonitorClient.exe           11172         10936         4
+ 85. RtkAudUService64.exe                4472         10868        10
+ 86. svchost.exe                         4812         10848        11
+ 87. svchost.exe                        10656         10424         1
+ 88. conhost.exe                        14300         10236         2
+ 89. svchost.exe                         1576          9404         8
+ 90. AUEPDU.exe                          7700          9368         2
+ 91. steamwebhelper.exe                  3284          9232         6
+ 92. winlogon.exe                        1120          9136         6
+ 93. RtkAudUService64.exe                6704          9008         5
+ 94. OpenConsole.exe                    10476          8976         4
+ 95. OpenConsole.exe                    11284          8972         4
+ 96. UserOOBEBroker.exe                  8736          8616         2
+ 97. conhost.exe                         4740          8596         4
+ 98. svchost.exe                         4080          8500         6
+ 99. services.exe                        1184          7944         7
+100. SECOCL64.exe                        4708          7684        12
+101. SECOMN64.exe                        4484          7300         4
+102. svchost.exe                         4456          6928         4
+103. CompPkgSrv.exe                      9032          6852         1
+104. crashhelper.exe                    10380          6368         2
+105. svchost.exe                         3520          6264         6
+106. jusched.exe                        10052          6184         1
+107. RtkBtManServ.exe                    4464          5968         6
+108. amdfendrsr.exe                      2288          5764         4
+109. atiesrxx.exe                        2300          5412         7
+110. OmenCap.exe                          652          5404         
