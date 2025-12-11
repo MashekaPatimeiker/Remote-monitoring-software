@@ -21,7 +21,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     if (!RegisterClass(&wc)) return 1;
 
     HWND hwnd = CreateWindow("ProcessMonitorServer",
-        "Process Monitor Server v1.0",
+        "Process Monitor - Server",
         WS_OVERLAPPEDWINDOW | WS_SIZEBOX | WS_MAXIMIZEBOX,
         CW_USEDEFAULT, CW_USEDEFAULT,
         850, 550,

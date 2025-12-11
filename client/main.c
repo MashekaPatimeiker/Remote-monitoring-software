@@ -12,7 +12,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
     if (!RegisterClassW(&wc)) return 1;
 
-    HWND hwnd = CreateWindowW(L"ClientWindowClass", L"Монитор процессов - Клиент",
+    HWND hwnd = CreateWindowW(L"ClientWindowClass", L"Process Monitor - Client",
                             WS_OVERLAPPEDWINDOW | WS_SIZEBOX | WS_MAXIMIZEBOX,
                             CW_USEDEFAULT, CW_USEDEFAULT,
                             850, 600,

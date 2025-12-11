@@ -3,7 +3,7 @@
 
 HWND hEditIP, hConnectBtn, hListBox, hStatus, hStats, hRefreshBtn, hAutoCheck;
 HWND hScanBtn, hDeviceList, hConnectToDeviceBtn, hTabControl, hScanListBox;
-wchar_t serverIP[MAX_IP_LENGTH] = L"192.168.0.100";
+wchar_t serverIP[MAX_IP_LENGTH] = L"";
 BOOL autoRefresh = FALSE;
 UINT_PTR refreshTimer = 0;
 
@@ -15,10 +15,10 @@ void CreateUIElements(HWND hwnd) {
     TCITEMW tie;
     tie.mask = TCIF_TEXT;
 
-    tie.pszText = L"Manual Connection";
+    tie.pszText = L"MConnection";
     TabCtrl_InsertItem(hTabControl, 0, &tie);
 
-    tie.pszText = L"Network Scan";
+    tie.pszText = L"Scanner";
     TabCtrl_InsertItem(hTabControl, 1, &tie);
 
     CreateWindowW(L"STATIC", L"Server IP:",
@@ -79,7 +79,7 @@ void CreateUIElements(HWND hwnd) {
     ShowWindow(hScanListBox, SW_HIDE);
 
     // Fonts with Unicode support
-    HFONT hFont = CreateFontW(12, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE,
+    HFONT hFont = CreateFontW(14, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE,
         DEFAULT_CHARSET, OUT_DEFAULT_PRECIS,
         CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY,
         DEFAULT_PITCH, L"Consolas");
@@ -87,7 +87,7 @@ void CreateUIElements(HWND hwnd) {
     SendMessage(hScanListBox, WM_SETFONT, (WPARAM)hFont, TRUE);
 
     // Font for status
-    HFONT hStatusFont = CreateFontW(14, 0, 0, 0, FW_BOLD, FALSE, FALSE, FALSE,
+    HFONT hStatusFont = CreateFontW(15, 0, 0, 0, FW_BOLD, FALSE, FALSE, FALSE,
         DEFAULT_CHARSET, OUT_DEFAULT_PRECIS,
         CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY,
         DEFAULT_PITCH, L"Segoe UI");

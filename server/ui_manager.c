@@ -24,12 +24,12 @@ void CreateUIElements(HWND hwnd) {
         WS_CHILD | WS_VISIBLE | SS_LEFT | SS_CENTERIMAGE | SS_SUNKEN,
         10, 430, 780, 30, hwnd, (HMENU)ID_STATUS, NULL, NULL);
 
-    HFONT hFont = CreateFont(11, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE,
+    HFONT hFont = CreateFont(14, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE,
         DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
         DEFAULT_QUALITY, DEFAULT_PITCH, "Consolas");
     SendMessage(hListBox, WM_SETFONT, (WPARAM)hFont, TRUE);
 
-    HFONT hStatusFont = CreateFont(12, 0, 0, 0, FW_BOLD, FALSE, FALSE, FALSE,
+    HFONT hStatusFont = CreateFont(15, 0, 0, 0, FW_BOLD, FALSE, FALSE, FALSE,
         DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
         DEFAULT_QUALITY, DEFAULT_PITCH, "Segoe UI");
     SendMessage(hStatus, WM_SETFONT, (WPARAM)hStatusFont, TRUE);
