@@ -5,7 +5,6 @@
 #include <windows.h>
 #include "config.h"
 
-// Global server variables
 extern HANDLE hServerThread;
 extern BOOL serverRunning;
 extern SOCKET serverSocket;

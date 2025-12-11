@@ -75,7 +75,6 @@ if errorlevel 1 (
 echo Step 4: Cleaning up...
 echo.
 
-:: Remove object files
 del *.o 2>nul
 
 echo =============================================

@@ -27,32 +27,30 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
             HandleSize(hwnd, wParam, lParam);
             break;
 
-        case WM_USER + 2: // Scan completed - ИСПРАВЛЕНО
+        case WM_USER + 2:
             UpdateConnectionStatus((const wchar_t*)lParam);
             scanThreadRunning = FALSE;
             hScanThread = NULL;
             break;
 
-        case WM_USER + 3: // Update status
+        case WM_USER + 3:
             UpdateConnectionStatus((const wchar_t*)lParam);
             break;
 
-        case WM_USER + 4: // Add scan result
+        case WM_USER + 4:
             AddScanResult((const wchar_t*)lParam);
             break;
 
-        case WM_USER + 5: // Clear results
+        case WM_USER + 5:
             ClearScanResults();
             break;
 
         case WM_CLOSE:
-            // Останавливаем автообновление
             if (refreshTimer) {
                 KillTimer(hwnd, refreshTimer);
                 refreshTimer = 0;
             }
 
-            // Останавливаем сканирование
             if (scanThreadRunning) {
                 StopScanning();
             }
@@ -82,16 +80,13 @@ void HandleCommand(HWND hwnd, WPARAM wParam, LPARAM lParam) {
         HandleAutoRefresh(hwnd);
     }
     else if (LOWORD(wParam) == ID_SCAN_NETWORK) {
-        if (!scanThreadRunning && !hScanThread) {  // Добавлена проверка
-            // Очищаем результаты
+        if (!scanThreadRunning && !hScanThread) {
             ClearScanResults();
 
-            // Сбрасываем флаг перед созданием потока
             scanThreadRunning = FALSE;
 
             hScanThread = CreateThread(NULL, 0, ScanNetworkThread, hwnd, 0, NULL);
             if (hScanThread) {
-                // Не закрываем handle здесь - закроем при завершении
             }
         }
     }
@@ -104,7 +99,6 @@ void HandleNotify(HWND hwnd, WPARAM wParam, LPARAM lParam) {
     if (((LPNMHDR)lParam)->code == TCN_SELCHANGE) {
         int selectedTab = TabCtrl_GetCurSel(hTabControl);
 
-        // Show/hide elements depending on tab
         if (selectedTab == 0) { // Manual Connection
             ShowWindow(hEditIP, SW_SHOW);
             ShowWindow(hConnectBtn, SW_SHOW);
@@ -115,7 +109,7 @@ void HandleNotify(HWND hwnd, WPARAM wParam, LPARAM lParam) {
             ShowWindow(hScanBtn, SW_HIDE);
             ShowWindow(hConnectToDeviceBtn, SW_HIDE);
             ShowWindow(hScanListBox, SW_HIDE);
-        } else { // Network Scan
+        } else {
             ShowWindow(hEditIP, SW_HIDE);
             ShowWindow(hConnectBtn, SW_HIDE);
             ShowWindow(hRefreshBtn, SW_HIDE);

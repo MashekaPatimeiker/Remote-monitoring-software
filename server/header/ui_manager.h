@@ -5,10 +5,8 @@
 #include <commctrl.h>
 #include "config.h"
 
-// Global UI handles
 extern HWND hListBox, hStatus, hStartBtn, hRefreshBtn;
 
-// UI functions
 void CreateUIElements(HWND hwnd);
 void UpdateProcessList();
 void UpdateStatus(const char* status);

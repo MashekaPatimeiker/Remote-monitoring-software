@@ -335,9 +335,9 @@ DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
     }
     if (hwnd != NULL) {
         PostMessage(hwnd, WM_USER + 5, 0, 0);
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"=== NETWORK SCANNER ==="));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"--- NETWORK SCANNER ---"));
         PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Using multi-thread scanning"));
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"========================"));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"------------------------"));
         PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
         PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Checking localhost..."));
     }
@@ -420,7 +420,7 @@ DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
 
     if (scanThreadRunning && hwnd != NULL) {
         PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"========================"));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"-----------------------"));
 
         if (deviceCount > 0) {
             PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Found devices:"));
@@ -466,7 +466,7 @@ DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
             PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"No servers found on port 8888"));
         }
 
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"========================"));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"------------------------"));
         PostMessage(hwnd, WM_USER + 2, 0, (LPARAM)L"Scan completed");
     }
 

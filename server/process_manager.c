@@ -13,10 +13,8 @@ int GetProcesses(ProcessInfo* processes, int max) {
         do {
             if (count >= max) break;
 
-            // Безопасное копирование имени процесса (фикс warning)
             int copySize = sizeof(processes[count].name) - 1;
             if (strlen(pe.szExeFile) > copySize) {
-                // Обрезаем слишком длинное имя
                 strncpy(processes[count].name, pe.szExeFile, copySize - 3);
                 strcat(processes[count].name, "...");
             } else {

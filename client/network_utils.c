@@ -26,11 +26,10 @@ BOOL PingDevice(const char* ip) {
 
     struct sockaddr_in addr;
     addr.sin_family = AF_INET;
-    addr.sin_port = htons(80); // HTTP порт
+    addr.sin_port = htons(80);
     inet_pton(AF_INET, ip, &addr.sin_addr);
 
-    // Устанавливаем таймауты
-    int timeout = 500; // 500ms
+    int timeout = 500;// 500ms
     setsockopt(sock, SOL_SOCKET, SO_RCVTIMEO, (char*)&timeout, sizeof(timeout));
     setsockopt(sock, SOL_SOCKET, SO_SNDTIMEO, (char*)&timeout, sizeof(timeout));
 
@@ -60,7 +59,6 @@ void GetLocalIP(char* ipBuffer) {
 }
 
 BOOL CheckServerOnDevice(const wchar_t* wip) {
-    // Convert wide char IP to ANSI
     char ip[MAX_IP_LENGTH];
     UnicodeToAnsi(wip, ip, sizeof(ip));
 
@@ -77,15 +75,13 @@ BOOL CheckServerOnDevice(const wchar_t* wip) {
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_port = htons(PORT);
 
-    // Use proper function for IP conversion
     if (inet_pton(AF_INET, ip, &serverAddr.sin_addr) != 1) {
         closesocket(sock);
         WSACleanup();
         return FALSE;
     }
 
-    // Short timeout
-    int timeout = 500; // 500ms
+    int timeout = 500;
     setsockopt(sock, SOL_SOCKET, SO_RCVTIMEO, (char*)&timeout, sizeof(timeout));
 
     BOOL hasServer = (connect(sock, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == 0);

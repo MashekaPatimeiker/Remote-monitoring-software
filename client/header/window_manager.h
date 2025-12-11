@@ -3,7 +3,6 @@
 
 #include "config.h"
 
-// Window procedure
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 void HandleCommand(HWND hwnd, WPARAM wParam, LPARAM lParam);
 void HandleNotify(HWND hwnd, WPARAM wParam, LPARAM lParam);

@@ -3,7 +3,6 @@
 
 #include "config.h"
 
-// Client functions
 void ConnectToServer();
 void ConnectToSelectedDevice();
 void HandleAutoRefresh(HWND hwnd);

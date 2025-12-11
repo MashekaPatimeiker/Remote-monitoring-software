@@ -19,13 +19,12 @@ void FormatClientResponse(char* buffer, int bufferSize, ProcessInfo* processes, 
     char timeStr[64];
     strftime(timeStr, sizeof(timeStr), "%Y-%m-%d %H:%M:%S", tm_info);
 
-    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "=== REMOTE PROCESS MONITOR ===\n");
+    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "--- REMOTE PROCESS MONITOR ---\n");
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "Time: %s\n", timeStr);
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "Server: %s\n", hostname);
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "Client IP: %s\n", clientIP);
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "Total Processes: %d\n\n", count);
 
-    // Memory statistics
     DWORD totalMem = 0;
     DWORD systemProcesses = 0;
     DWORD userProcesses = 0;
@@ -41,7 +40,7 @@ void FormatClientResponse(char* buffer, int bufferSize, ProcessInfo* processes, 
         }
     }
 
-    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "=== MEMORY STATISTICS ===\n");
+    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "--- MEMORY STATISTICS ---\n");
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "Total Memory Used: %lu KB (%.2f MB)\n",
                   totalMem, totalMem / 1024.0);
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "System Processes: %lu\n", systemProcesses);
@@ -51,12 +50,10 @@ void FormatClientResponse(char* buffer, int bufferSize, ProcessInfo* processes, 
                   count > 0 ? totalMem / count : 0);
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "\n");
 
-    // ВСЕ ПРОЦЕССЫ - БЕЗ ОГРАНИЧЕНИЙ
-    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "=== ALL PROCESSES (Sorted by Memory Usage) ===\n");
+    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "--- ALL PROCESSES (Sorted by Memory Usage) ---\n");
     pos += _snprintf(buffer + pos, bufferSize - pos - 1, "No.  Process Name                     PID        Memory (KB)   Threads\n");
-    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "=========================================================================\n");
+    pos += _snprintf(buffer + pos, bufferSize - pos - 1, "------------------------------------------------------------------------\n");
 
-    // Выводим ВСЕ процессы
     for (int i = 0; i < count && pos < bufferSize - 512; i++) {
         if (processes[i].memory > 0) {
             pos += _snprintf(buffer + pos, bufferSize - pos - 1,

@@ -5,7 +5,6 @@
 #include "header/ui_manager.h"
 #include "header/server_manager.h"
 
-// Глобальная переменная для отслеживания состояния сервера
 extern BOOL serverRunning;
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {

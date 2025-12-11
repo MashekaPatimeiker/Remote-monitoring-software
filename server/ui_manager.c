@@ -5,11 +5,9 @@
 #include "header/ui_manager.h"
 #include "header/process_manager.h"
 #include "header/config.h"
-// Global UI handles
 HWND hListBox, hStatus, hStartBtn, hRefreshBtn;
 
 void CreateUIElements(HWND hwnd) {
-    // Кнопки в одну строку
     hStartBtn = CreateWindow("BUTTON", "Start Server",
         WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
         30, 20, 150, 40, hwnd, (HMENU)ID_BUTTON_START, NULL, NULL);
@@ -18,17 +16,14 @@ void CreateUIElements(HWND hwnd) {
         WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
         190, 20, 120, 40, hwnd, (HMENU)ID_REFRESH, NULL, NULL);
 
-    // Список процессов занимает больше места
     hListBox = CreateWindow("LISTBOX", "",
         WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | LBS_NOTIFY | LBS_NOINTEGRALHEIGHT,
         30, 70, 740, 350, hwnd, (HMENU)ID_LISTBOX, NULL, NULL);
 
-    // Статус бар
     hStatus = CreateWindow("STATIC", "Server: READY | Port: 8888 | Processes: 0",
         WS_CHILD | WS_VISIBLE | SS_LEFT | SS_CENTERIMAGE | SS_SUNKEN,
         10, 430, 780, 30, hwnd, (HMENU)ID_STATUS, NULL, NULL);
 
-    // Шрифты
     HFONT hFont = CreateFont(11, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE,
         DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
         DEFAULT_QUALITY, DEFAULT_PITCH, "Consolas");
@@ -48,7 +43,6 @@ void UpdateProcessList() {
 
     SendMessage(hListBox, LB_RESETCONTENT, 0, 0);
 
-    // Обновляем статус с количеством процессов
     char statusMsg[256];
     sprintf(statusMsg, "Server: %s | Port: 8888 | Processes: %d",
             serverRunning ? "RUNNING" : "READY", count);
@@ -63,14 +57,11 @@ void UpdateProcessList() {
 
     char buffer[1024];
 
-    // Заголовок таблицы (компактный)
     SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"#   PROCESS                        PID      MEMORY(KB)  THREADS");
     SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"------------------------------------------------------------------");
 
-    // Вывод ВСЕХ процессов
     for (int i = 0; i < count; i++) {
         if (processes[i].memory > 0) {
-            // Компактный формат
             _snprintf(buffer, sizeof(buffer) - 1,
                      "%3d %-25s  %7lu  %10lu  %7lu",
                      i + 1, processes[i].name, processes[i].pid,
@@ -85,7 +76,6 @@ void UpdateProcessList() {
         SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)buffer);
     }
 
-    // Статистика в конце
     SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"");
     SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"STATISTICS:");
 
@@ -112,7 +102,6 @@ void UpdateStatus(const char* status) {
 }
 
 void LayoutUI(HWND hwnd, int width, int height) {
-    // Компактное размещение
     MoveWindow(hStartBtn, 30, 20, 150, 40, TRUE);
     MoveWindow(hRefreshBtn, 190, 20, 120, 40, TRUE);
     MoveWindow(hListBox, 30, 70, width - 60, height - 110, TRUE);

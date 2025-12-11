@@ -1,7 +1,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-// Windows headers
 #include <winsock2.h>
 #include <windows.h>
 #include <commctrl.h>
@@ -11,19 +10,16 @@
 #include <iphlpapi.h>
 #include <locale.h>
 
-// Library linking
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "comctl32.lib")
 #pragma comment(lib, "iphlpapi.lib")
 
-// Constants
 #define PORT 8888
 #define BUFFER_SIZE 65536
 #define MAX_DEVICES 100
 #define MAX_IP_LENGTH 16
 #define MAX_HOSTNAME_LENGTH 256
 
-// Control IDs
 #define ID_EDIT_IP         1001
 #define ID_BUTTON_CONN     1002
 #define ID_LISTBOX         1003
@@ -43,17 +39,15 @@ typedef struct {
     BOOL isAlive;
     BOOL hasServer;
     wchar_t deviceType[50];
-    wchar_t mac[18];  // MAC адрес (опционально)
-    int openPorts[20]; // Список открытых портов
+    wchar_t mac[18];
+    int openPorts[20];
 } NetworkDevice;
 
-// Структура для безопасной передачи сообщений между потоками
 typedef struct {
     HWND hwnd;
     wchar_t message[1024];
 } ScanMessage;
 
-// Global variables declarations
 extern HWND hEditIP, hConnectBtn, hListBox, hStatus, hStats, hRefreshBtn, hAutoCheck;
 extern HWND hScanBtn, hDeviceList, hConnectToDeviceBtn, hTabControl, hScanListBox;
 extern wchar_t serverIP[MAX_IP_LENGTH];
@@ -64,9 +58,8 @@ extern int deviceCount;
 extern HANDLE hScanThread;
 extern BOOL scanThreadRunning;
 
-// Для обратной совместимости с кодом, использующим старые имена
 #ifndef hResultText
 #define hResultText hScanListBox
 #endif
 
-#endif // CONFIG_H
+#endif

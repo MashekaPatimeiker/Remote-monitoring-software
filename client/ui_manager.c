@@ -1,20 +1,17 @@
 #include "header/ui_manager.h"
 #include "header/client.h"
 
-// Global UI handles - ДОБАВЬТЕ hScanListBox сюда
 HWND hEditIP, hConnectBtn, hListBox, hStatus, hStats, hRefreshBtn, hAutoCheck;
-HWND hScanBtn, hDeviceList, hConnectToDeviceBtn, hTabControl, hScanListBox;  // ✅ Добавлено
+HWND hScanBtn, hDeviceList, hConnectToDeviceBtn, hTabControl, hScanListBox;
 wchar_t serverIP[MAX_IP_LENGTH] = L"192.168.0.100";
 BOOL autoRefresh = FALSE;
 UINT_PTR refreshTimer = 0;
 
 void CreateUIElements(HWND hwnd) {
-    // Create Tab Control
     hTabControl = CreateWindowW(WC_TABCONTROLW, L"",
         WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS,
         10, 10, 780, 450, hwnd, (HMENU)ID_TAB_CONTROL, NULL, NULL);
 
-    // Add tabs
     TCITEMW tie;
     tie.mask = TCIF_TEXT;
 
@@ -24,7 +21,6 @@ void CreateUIElements(HWND hwnd) {
     tie.pszText = L"Network Scan";
     TabCtrl_InsertItem(hTabControl, 1, &tie);
 
-    // Tab 1: Manual Connection
     CreateWindowW(L"STATIC", L"Server IP:",
         WS_CHILD | WS_VISIBLE | SS_LEFT | SS_CENTERIMAGE,
         30, 50, 80, 30, hwnd, NULL, NULL, NULL);
@@ -50,7 +46,6 @@ void CreateUIElements(HWND hwnd) {
         LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_HASSTRINGS,
         30, 100, 740, 300, hwnd, (HMENU)ID_LISTBOX, NULL, NULL);
 
-    // Tab 2: Network Scan
     hScanBtn = CreateWindowW(L"BUTTON", L"Scan Network",
         WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
         30, 50, 150, 35, hwnd, (HMENU)ID_SCAN_NETWORK, NULL, NULL);
@@ -59,15 +54,13 @@ void CreateUIElements(HWND hwnd) {
         WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
         190, 50, 180, 35, hwnd, (HMENU)ID_CONNECT_TO_DEV, NULL, NULL);
 
-    // ListBox для результатов сканирования вместо EDIT
     hScanListBox = CreateWindowW(L"LISTBOX", L"",
         WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL |
         LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_HASSTRINGS,
         30, 100, 740, 300, hwnd, (HMENU)ID_SCAN_LISTBOX, NULL, NULL);
 
-    // Добавляем заголовки в ListBox
     SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"Scan Results:");
-    SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"========================================");
+    SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"----------------------------------------");
     SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"Click 'Scan Network' to start search");
     SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"");
 
@@ -109,7 +102,6 @@ void UpdateConnectionStatus(const wchar_t* status) {
 void AddScanResult(const wchar_t* result) {
     if (result == NULL) return;
 
-    // Удаляем завершающие символы новой строки
     wchar_t cleanResult[1024];
     wcscpy(cleanResult, result);
 
@@ -119,41 +111,33 @@ void AddScanResult(const wchar_t* result) {
         len--;
     }
 
-    // Добавляем строку в ListBox
     SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)cleanResult);
 
-    // Автопрокрутка к последней строке
     int itemCount = SendMessage(hScanListBox, LB_GETCOUNT, 0, 0);
     if (itemCount > 0) {
         SendMessage(hScanListBox, LB_SETTOPINDEX, itemCount - 1, 0);
     }
 
-    // Освобождаем память
     free((void*)result);
 }
+
 void ClearScanResults() {
-    // Очищаем ListBox
     SendMessage(hScanListBox, LB_RESETCONTENT, 0, 0);
 
-    // Добавляем заголовки
     SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"Scan Results:");
-    SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"========================================");
+    SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"----------------------------------------");
     SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"Click 'Scan Network' to start search");
     SendMessageW(hScanListBox, LB_ADDSTRING, 0, (LPARAM)L"");
 
-    // Прокручиваем в начало
     SendMessage(hScanListBox, LB_SETTOPINDEX, 0, 0);
 }
 
 void LayoutUI(HWND hwnd, int width, int height) {
-    // Scale Tab Control
     MoveWindow(hTabControl, 10, 10, width - 20, height - 120, TRUE);
 
-    // Scale elements inside Tab Control
     MoveWindow(hListBox, 30, 100, width - 60, height - 230, TRUE);
     MoveWindow(hScanListBox, 30, 100, width - 60, height - 230, TRUE);
 
-    // Scale status bar
     MoveWindow(hStatus, 10, height - 100, width - 20, 30, TRUE);
     MoveWindow(hStats, 10, height - 65, width - 20, 40, TRUE);
-}  // ← ДОБАВИТЬ эту строку!
+}
