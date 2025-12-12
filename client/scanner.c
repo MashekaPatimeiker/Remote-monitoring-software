@@ -315,8 +315,7 @@ void FastScanIPRangeMultiThread(unsigned long startIP, unsigned long endIP, HWND
     }
 }
 
-DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
-    HWND hwnd = (HWND)lpParam;
+BOOL InitializeScanning(HWND hwnd) {
     deviceCount = 0;
     scanThreadRunning = TRUE;
 
@@ -325,49 +324,111 @@ DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
 
     WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2,2), &wsaData) != 0) {
-        if (hwnd != NULL) {
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Network initialization failed"));
-        }
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Network initialization failed"));
         scanThreadRunning = FALSE;
         DeleteCriticalSection(&csDeviceList);
         DeleteCriticalSection(&csConsole);
-        return 1;
+        return FALSE;
     }
-    if (hwnd != NULL) {
-        PostMessage(hwnd, WM_USER + 5, 0, 0);
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"--- NETWORK SCANNER ---"));
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Using multi-thread scanning"));
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"------------------------"));
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Checking localhost..."));
+
+    PostMessage(hwnd, WM_USER + 5, 0, 0); // Очистка лога
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"--- NETWORK SCANNER ---"));
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Using multi-thread scanning"));
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"------------------------"));
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
+
+    return TRUE;
+}
+
+void SortDevicesByIP() {
+    for (int i = 0; i < deviceCount - 1; i++) {
+        for (int j = i + 1; j < deviceCount; j++) {
+            if (wcscmp(devices[i].ip, devices[j].ip) > 0) {
+                NetworkDevice temp = devices[i];
+                devices[i] = devices[j];
+                devices[j] = temp;
+            }
+        }
     }
+}
+
+void DisplayDeviceList(HWND hwnd) {
+    for (int i = 0; i < deviceCount; i++) {
+        wchar_t deviceInfo[256];
+        if (devices[i].hasServer) {
+            swprintf(deviceInfo, 256, L"✓ %s [%s] - SERVER",
+                     devices[i].ip, devices[i].deviceType);
+        } else {
+            swprintf(deviceInfo, 256, L"  %s [%s]",
+                     devices[i].ip, devices[i].deviceType);
+        }
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(deviceInfo));
+    }
+}
+void AddDeviceToList(const wchar_t* ip, BOOL hasServer, const wchar_t* deviceType, BOOL isAlive) {
+    EnterCriticalSection(&csDeviceList);
+
+    BOOL exists = FALSE;
+    for (int j = 0; j < deviceCount; j++) {
+        if (wcscmp(devices[j].ip, ip) == 0) {
+            exists = TRUE;
+            break;
+        }
+    }
+
+    if (!exists && deviceCount < MAX_DEVICES) {
+        wcscpy(devices[deviceCount].ip, ip);
+        devices[deviceCount].isAlive = isAlive;
+        devices[deviceCount].hasServer = hasServer;
+        wcscpy(devices[deviceCount].deviceType, deviceType);
+        deviceCount++;
+    }
+
+    LeaveCriticalSection(&csDeviceList);
+}
+int CountServers() {
+    int serverCount = 0;
+    for (int i = 0; i < deviceCount; i++) {
+        if (devices[i].hasServer) {
+            serverCount++;
+        }
+    }
+    return serverCount;
+}
+void DisplayScanStatistics(HWND hwnd) {
+    wchar_t summary[256];
+    int serverCount = CountServers();
+
+    swprintf(summary, 256, L"Scan complete: %d devices found", deviceCount);
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(summary));
+
+    if (serverCount > 0) {
+        swprintf(summary, 256, L"Servers: %d on port 8888", serverCount);
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(summary));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Use 'Connect to Server' button"));
+    } else {
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"No servers found on port 8888"));
+    }
+}
+void CheckLocalhost(HWND hwnd) {
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Checking localhost..."));
 
     if (QuickPing("127.0.0.1", 200)) {
         BOOL hasServer = QuickPortCheck("127.0.0.1", 8888, 200);
 
-        if (hwnd != NULL) {
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"IP: 127.0.0.1"));
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Type: Localhost"));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"IP: 127.0.0.1"));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Type: Localhost"));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(
+            hasServer ? L"Status: SERVER FOUND" : L"Status: Online"
+        ));
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
 
-            if (hasServer) {
-                PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Status: SERVER FOUND"));
-            } else {
-                PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Status: Online"));
-            }
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
-        }
-
-        if (deviceCount < MAX_DEVICES) {
-            wcscpy(devices[deviceCount].ip, L"127.0.0.1");
-            devices[deviceCount].isAlive = TRUE;
-            devices[deviceCount].hasServer = hasServer;
-            wcscpy(devices[deviceCount].deviceType, L"Localhost");
-            deviceCount++;
-        }
+        AddDeviceToList(L"127.0.0.1", hasServer, L"Localhost", TRUE);
     }
+}
 
-    NetworkInterfaceInfo interfaces[10];
-    int interfaceCount = GetNetworkInterfaces(interfaces, 10);
+int GetAndDisplayNetworkInterfaces(NetworkInterfaceInfo* interfaces, int maxInterfaces, HWND hwnd) {
+    int interfaceCount = GetNetworkInterfaces(interfaces, maxInterfaces);
 
     if (hwnd != NULL) {
         wchar_t infoMsg[256];
@@ -390,26 +451,35 @@ DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
         PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
     }
 
+    return interfaceCount;
+}
+
+void ScanSingleNetworkInterface(NetworkInterfaceInfo* interfaceInfo, int interfaceIndex,
+                                int totalInterfaces, HWND hwnd) {
+    unsigned long startIP, endIP;
+    CalculateIPRange(interfaceInfo->ip, interfaceInfo->subnet, &startIP, &endIP);
+
+    if (hwnd != NULL && scanThreadRunning) {
+        wchar_t networkInfo[256];
+        char startIPStr[16], endIPStr[16];
+        IPToString(startIP, startIPStr);
+        IPToString(endIP, endIPStr);
+
+        wchar_t wstart[16], wend[16];
+        AnsiToUnicode(startIPStr, wstart, sizeof(wstart)/sizeof(wchar_t));
+        AnsiToUnicode(endIPStr, wend, sizeof(wend)/sizeof(wchar_t));
+
+        swprintf(networkInfo, 256, L"Scanning network %d/%d: %s - %s",
+                interfaceIndex+1, totalInterfaces, wstart, wend);
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(networkInfo));
+    }
+
+    FastScanIPRangeMultiThread(startIP, endIP, hwnd);
+}
+
+void ScanAllNetworkInterfaces(NetworkInterfaceInfo* interfaces, int interfaceCount, HWND hwnd) {
     for (int i = 0; i < interfaceCount && scanThreadRunning; i++) {
-        unsigned long startIP, endIP;
-        CalculateIPRange(interfaces[i].ip, interfaces[i].subnet, &startIP, &endIP);
-
-        if (hwnd != NULL && scanThreadRunning) {
-            wchar_t networkInfo[256];
-            char startIPStr[16], endIPStr[16];
-            IPToString(startIP, startIPStr);
-            IPToString(endIP, endIPStr);
-
-            wchar_t wstart[16], wend[16];
-            AnsiToUnicode(startIPStr, wstart, sizeof(wstart)/sizeof(wchar_t));
-            AnsiToUnicode(endIPStr, wend, sizeof(wend)/sizeof(wchar_t));
-
-            swprintf(networkInfo, 256, L"Scanning network %d/%d: %s - %s",
-                    i+1, interfaceCount, wstart, wend);
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(networkInfo));
-        }
-
-        FastScanIPRangeMultiThread(startIP, endIP, hwnd);
+        ScanSingleNetworkInterface(&interfaces[i], i, interfaceCount, hwnd);
 
         if (hwnd != NULL && i < interfaceCount - 1 && scanThreadRunning) {
             PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
@@ -417,63 +487,58 @@ DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
             PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
         }
     }
+}
 
-    if (scanThreadRunning && hwnd != NULL) {
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"-----------------------"));
 
-        if (deviceCount > 0) {
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Found devices:"));
-
-            for (int i = 0; i < deviceCount - 1; i++) {
-                for (int j = i + 1; j < deviceCount; j++) {
-                    if (wcscmp(devices[i].ip, devices[j].ip) > 0) {
-                        NetworkDevice temp = devices[i];
-                        devices[i] = devices[j];
-                        devices[j] = temp;
-                    }
-                }
-            }
-
-            for (int i = 0; i < deviceCount; i++) {
-                wchar_t deviceInfo[256];
-                if (devices[i].hasServer) {
-                    swprintf(deviceInfo, 256, L"✓ %s [%s] - SERVER",
-                             devices[i].ip, devices[i].deviceType);
-                } else {
-                    swprintf(deviceInfo, 256, L"  %s [%s]",
-                             devices[i].ip, devices[i].deviceType);
-                }
-                PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(deviceInfo));
-            }
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
-        }
-
-        wchar_t summary[256];
-        int serverCount = 0;
-        for (int i = 0; i < deviceCount; i++) {
-            if (devices[i].hasServer) serverCount++;
-        }
-
-        swprintf(summary, 256, L"Scan complete: %d devices found", deviceCount);
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(summary));
-
-        if (serverCount > 0) {
-            swprintf(summary, 256, L"Servers: %d on port 8888", serverCount);
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(summary));
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Use 'Connect to Server' button"));
-        } else {
-            PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"No servers found on port 8888"));
-        }
-
-        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"------------------------"));
-        PostMessage(hwnd, WM_USER + 2, 0, (LPARAM)L"Scan completed");
+void DisplayScanResults(HWND hwnd) {
+    if (!scanThreadRunning || hwnd == NULL) {
+        return;
     }
 
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"-----------------------"));
+
+    if (deviceCount > 0) {
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"Found devices:"));
+
+        SortDevicesByIP();
+
+        DisplayDeviceList(hwnd);
+
+        PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L""));
+    }
+
+    DisplayScanStatistics(hwnd);
+
+    PostMessage(hwnd, WM_USER + 4, 0, (LPARAM)_wcsdup(L"------------------------"));
+    PostMessage(hwnd, WM_USER + 2, 0, (LPARAM)L"Scan completed");
+}
+
+void CleanupScanning() {
     WSACleanup();
     DeleteCriticalSection(&csDeviceList);
     DeleteCriticalSection(&csConsole);
     scanThreadRunning = FALSE;
+}
+
+DWORD WINAPI ScanNetworkThread(LPVOID lpParam) {
+    HWND hwnd = (HWND)lpParam;
+
+    if (!InitializeScanning(hwnd)) {
+        return 1;
+    }
+
+    CheckLocalhost(hwnd);
+
+    NetworkInterfaceInfo interfaces[10];
+    int interfaceCount = GetAndDisplayNetworkInterfaces(interfaces, 10, hwnd);
+
+    ScanAllNetworkInterfaces(interfaces, interfaceCount, hwnd);
+
+    DisplayScanResults(hwnd);
+
+    CleanupScanning();
+
     return 0;
 }
 

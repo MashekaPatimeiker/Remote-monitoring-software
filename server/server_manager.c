@@ -68,7 +68,6 @@ void FormatClientResponse(char* buffer, int bufferSize, ProcessInfo* processes, 
         }
     }
 
-    // Убедимся, что строка заканчивается нуль-терминатором
     if (pos >= bufferSize) {
         pos = bufferSize - 1;
     }

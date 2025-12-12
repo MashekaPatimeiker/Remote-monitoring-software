@@ -73,15 +73,3 @@ DWORD GetTotalThreadCount() {
     CloseHandle(hSnapshot);
     return threadCount;
 }
-
-void SortProcessesByMemory(ProcessInfo* processes, int count) {
-    for (int i = 0; i < count - 1; i++) {
-        for (int j = i + 1; j < count; j++) {
-            if (processes[i].memory < processes[j].memory) {
-                ProcessInfo temp = processes[i];
-                processes[i] = processes[j];
-                processes[j] = temp;
-            }
-        }
-    }
-}

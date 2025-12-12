@@ -7,6 +7,113 @@
 #include "header/config.h"
 HWND hListBox, hStatus, hStartBtn, hRefreshBtn;
 
+DWORD CalculateTotalMemory(ProcessInfo* processes, int count) {
+    DWORD totalMemory = 0;
+    for (int i = 0; i < count; i++) {
+        totalMemory += processes[i].memory;
+    }
+    return totalMemory;
+}
+int GetProcesses(ProcessInfo* processes, int maxProcesses);
+void DisplayThreadStatistics(DWORD totalThreads, int processCount) {
+    char buffer[1024];
+    float avgThreads = processCount > 0 ? (float)totalThreads / processCount : 0;
+
+    _snprintf(buffer, sizeof(buffer) - 1,
+             "Total Threads: %lu | Avg per process: %.1f",
+             totalThreads, avgThreads);
+    buffer[sizeof(buffer) - 1] = '\0';
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)buffer);
+}
+void PrepareProcessListDisplay() {
+    SendMessage(hListBox, LB_RESETCONTENT, 0, 0);
+}
+
+void UpdateServerStatus(int processCount) {
+    char statusMsg[256];
+    sprintf(statusMsg, "Server: %s | Port: 8888 | Processes: %d",
+            serverRunning ? "RUNNING" : "READY", processCount);
+    UpdateStatus(statusMsg);
+}
+
+void DisplayListHeaders(int processCount) {
+    char header[256];
+    sprintf(header, "PROCESSES: %d (Sorted by Memory Usage)", processCount);
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)header);
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"");
+
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"#   PROCESS                        PID      MEMORY(KB)  THREADS");
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"------------------------------------------------------------------");
+}
+
+void SortProcessesByMemory(ProcessInfo* processes, int count) {
+    for (int i = 0; i < count - 1; i++) {
+        for (int j = i + 1; j < count; j++) {
+            if (processes[i].memory < processes[j].memory) {
+                ProcessInfo temp = processes[i];
+                processes[i] = processes[j];
+                processes[j] = temp;
+            }
+        }
+    }
+}
+void FormatProcessLine(ProcessInfo process, int index, char* buffer, size_t bufferSize) {
+    if (process.memory > 0) {
+        _snprintf(buffer, bufferSize - 1,
+                 "%3d %-25s  %7lu  %10lu  %7lu",
+                 index, process.name, process.pid,
+                 process.memory, process.threadCount);
+    } else {
+        _snprintf(buffer, bufferSize - 1,
+                 "%3d %-25s  %7lu  %10s  %7lu",
+                 index, process.name, process.pid,
+                 "N/A", process.threadCount);
+    }
+    buffer[bufferSize - 1] = '\0';
+}
+
+void DisplayProcessesList(ProcessInfo* processes, int count) {
+    char buffer[1024];
+
+    for (int i = 0; i < count; i++) {
+        FormatProcessLine(processes[i], i + 1, buffer, sizeof(buffer));
+        SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)buffer);
+    }
+}
+
+
+DWORD CalculateTotalThreads(ProcessInfo* processes, int count) {
+    DWORD totalThreads = 0;
+    for (int i = 0; i < count; i++) {
+        totalThreads += processes[i].threadCount;
+    }
+    return totalThreads;
+}
+
+void DisplayMemoryStatistics(DWORD totalMemory, int processCount) {
+    char buffer[1024];
+    _snprintf(buffer, sizeof(buffer) - 1,
+             "Total Memory: %lu KB (%.1f MB)",
+             totalMemory, totalMemory / 1024.0);
+    buffer[sizeof(buffer) - 1] = '\0';
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)buffer);
+}
+
+
+void DisplayProcessStatistics(ProcessInfo* processes, int count) {
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"");
+    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"STATISTICS:");
+
+    DWORD totalMemory = CalculateTotalMemory(processes, count);
+    DWORD totalThreads = CalculateTotalThreads(processes, count);
+
+    DisplayMemoryStatistics(totalMemory, count);
+
+    DisplayThreadStatistics(totalThreads, count);
+}
+
+
+
 void CreateUIElements(HWND hwnd) {
     hStartBtn = CreateWindow("BUTTON", "Start Server",
         WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
@@ -36,65 +143,21 @@ void CreateUIElements(HWND hwnd) {
 
     UpdateProcessList();
 }
-
 void UpdateProcessList() {
     ProcessInfo processes[MAX_PROCESSES];
     int count = GetProcesses(processes, MAX_PROCESSES);
 
-    SendMessage(hListBox, LB_RESETCONTENT, 0, 0);
+    PrepareProcessListDisplay();
 
-    char statusMsg[256];
-    sprintf(statusMsg, "Server: %s | Port: 8888 | Processes: %d",
-            serverRunning ? "RUNNING" : "READY", count);
-    UpdateStatus(statusMsg);
+    UpdateServerStatus(count);
 
-    char header[256];
-    sprintf(header, "PROCESSES: %d (Sorted by Memory Usage)", count);
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)header);
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"");
+    DisplayListHeaders(count);
 
     SortProcessesByMemory(processes, count);
 
-    char buffer[1024];
+    DisplayProcessesList(processes, count);
 
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"#   PROCESS                        PID      MEMORY(KB)  THREADS");
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"------------------------------------------------------------------");
-
-    for (int i = 0; i < count; i++) {
-        if (processes[i].memory > 0) {
-            _snprintf(buffer, sizeof(buffer) - 1,
-                     "%3d %-25s  %7lu  %10lu  %7lu",
-                     i + 1, processes[i].name, processes[i].pid,
-                     processes[i].memory, processes[i].threadCount);
-        } else {
-            _snprintf(buffer, sizeof(buffer) - 1,
-                     "%3d %-25s  %7lu  %10s  %7lu",
-                     i + 1, processes[i].name, processes[i].pid,
-                     "N/A", processes[i].threadCount);
-        }
-        buffer[sizeof(buffer) - 1] = '\0';
-        SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)buffer);
-    }
-
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"");
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)"STATISTICS:");
-
-    DWORD totalMemory = 0;
-    DWORD totalThreads = 0;
-    for (int i = 0; i < count; i++) {
-        totalMemory += processes[i].memory;
-        totalThreads += processes[i].threadCount;
-    }
-
-    _snprintf(buffer, sizeof(buffer) - 1,
-             "Total Memory: %lu KB (%.1f MB)",
-             totalMemory, totalMemory / 1024.0);
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)buffer);
-
-    _snprintf(buffer, sizeof(buffer) - 1,
-             "Total Threads: %lu | Avg per process: %.1f",
-             totalThreads, count > 0 ? (float)totalThreads / count : 0);
-    SendMessageA(hListBox, LB_ADDSTRING, 0, (LPARAM)buffer);
+    DisplayProcessStatistics(processes, count);
 }
 
 void UpdateStatus(const char* status) {
